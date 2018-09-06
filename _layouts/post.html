@@ -1,0 +1,46 @@
+---
+layout: blog
+---
+
+<div class='mod modBlogPost big no_bg'>
+  <div class='images'>
+    {% for image in page.images %}
+    <div class='image'><img alt="" src="{{site.url}}/{{image}}" /></div>
+    {% endfor %}
+  </div>
+  <div class='content'>
+    <p class='info'>
+      <span>
+	{% assign m = page.date | date: "%-m" %}
+	{{ page.date | date: "%d" }}
+	{% case m %}
+	{% when '1' %}janvier
+	{% when '2' %}février
+	{% when '3' %}mars
+	{% when '4' %}avril
+	{% when '5' %}mai
+	{% when '6' %}juin
+	{% when '7' %}juillet
+	{% when '8' %}août
+	{% when '9' %}septembre
+	{% when '10' %}octobre
+	{% when '11' %}novembre
+	{% when '12' %}décembre
+	{% endcase %}
+	{{ page.date | date: "%Y" }}
+      </span>
+      /
+      <span>
+        de
+        <a href="{{page.author_link}}">{{page.author}}</a>
+	{% if page.twitter %}
+        <a href="https://twitter.com/{{page.twitter}}"><i class='fa fa-twitter'></i></a>
+	{% endif %}
+      </span>
+    </p>
+    {% include share-bar.html %}
+    {{content}}
+    {% include share-bar.html %}
+  </div>
+</div>
+

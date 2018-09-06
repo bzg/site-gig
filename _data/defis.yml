@@ -1,0 +1,142 @@
+- image: /img/defis/futur-eig3-portfolio.png
+  title: Voir les futurs défis EIG 3
+  link_to: /candidature-eig.html
+  class: 
+  - data
+  - design
+  - web
+  desc: 
+
+- image: /img/defis/balisenav-portfolio.png
+  title: b@liseNAV
+  link_to: /defis/2018/balisenav.html
+  class: 
+  - 2018 
+  - web
+  desc: Développement
+
+- image: /img/defis/previsecours-portfolio.png
+  title: Prévisecours
+  link_to: /defis/2018/previsecours.html
+  class: 2018 web data
+  desc: Datascience &amp; Développement
+
+- image: /img/defis/archifiltre-portfolio.png
+  title: Archifiltre
+  link_to: /defis/2018/archifiltre.html
+  class: 2018 data web 
+  desc: Datascience &amp; Développement
+
+- image: /img/defis/brigade-numerique-portfolio.png
+  title: Brigade Numérique
+  link_to: /defis/2018/brigadenumerique.html
+  class: 2018 web design
+  desc: Design &amp; Développement
+
+- image: /img/defis/signaux-faibles-portfolio.png
+  title: Signaux Faibles
+  link_to: /defis/2018/signauxfaibles.html
+  class: 2018 data web 
+  desc: Datascience &amp; Développement
+
+- image: /img/defis/coacheleves-portfolio.png
+  title: CoachÉlève - AssistProf
+  link_to: /defis/2018/coacheleves.html
+  class: 2018 data 
+  desc: Datascience
+
+- image: /img/defis/dataesr-portfolio.png
+  title: DataESR
+  link_to: /defis/2018/dataesr.html
+  class: 2018 data web 
+  desc: Datascience &amp; Développement
+
+- image: /img/defis/predisauvetage-portfolio.png
+  title: Prédisauvetage
+  link_to: /defis/2018/donneesauvetagemaritime.html
+  class: 2018 data web 
+  desc: Datascience &amp; Développement
+
+- image: /img/defis/gobelins-portfolio.png
+  title: Gobelins
+  link_to: /defis/2018/gobelins.html
+  class: 2018 web design
+  desc: Design &amp; Développement
+
+- image: /img/defis/eig-link-2018-portfolio.png
+  title: EIG Link
+  link_to: /defis/2018/eiglink.html
+  class: 2018 web
+  desc: Développement
+
+- image: /img/defis/hopkins-portfolio.png
+  title: Hopkins
+  link_to: /defis/2018/hopkins.html
+  class: 2018 data
+  desc: Datascience
+
+- image: /img/defis/lab-sante-portfolio.png
+  title: Lab Santé
+  link_to: /defis/2018/labsante.html
+  class: 2018 data 
+  desc: Datascience
+
+- image: /img/defis/social-connect-portfolio.png
+  title: SocialConnect
+  link_to: /defis/2018/socialconnect.html
+  class: 2018 web design
+  desc: Design &amp; Développement
+
+- image: /img/defis/afd-geodata-portfolio.png
+  title: AFD - Geodata
+  link_to: /defis/2017/afd-geodata.html
+  class: 2017 web
+  desc: Développement
+
+- image: /img/defis/ars-parcours-soin-portfolio.png
+  title: ARS - Parcours de soin
+  link_to: /defis/2017/ars-occitanie-parcours-de-soin.html
+  class: 2017 data web 
+  desc: Développement &amp; Datascience
+
+- image: /img/defis/bnf-catalogage-portfolio.png
+  title: BNF - catalogage
+  link_to: /defis/2017/bnf-catalogage.html
+  class: 2017 web 
+  desc: Développement
+
+- image: /img/defis/cc-api-rapports-portfolio.png
+  title: CC - API rapports
+  link_to: /defis/2017/cc-api-rapports.html
+  class: 2017 web
+  desc: Développement
+
+- image: /img/defis/dgfip-fraude-fiscale-portfolio.png
+  title: DGFiP - fraude fiscale
+  link_to: /defis/2017/dgfip-fraude-fiscale.html
+  class: 2017 data
+  desc: Datascience
+
+- image: /img/defis/mcc-inventaire-orgues-portfolio.png
+  title: MCC - Inventaire des orgues
+  link_to: /defis/2017/mcc-inventaire-des-orgues.html
+  class: 2017 web 
+  desc: Développement
+
+- image: /img/defis/mesri-machine-donnees-portfolio.png
+  title: MESRI - La machine à données
+  link_to: /defis/2017/mesri-magical-merge-machine.html
+  class: 2017 web 
+  desc: Développement
+
+- image: /img/defis/mi-cartav-portfolio.png
+  title: MI - cartAV 
+  link_to: /defis/2017/mi-cartav-securite-routiere.html
+  class: 2017 web 
+  desc: Développement
+
+- image: /img/defis/mi-matchid-portfolio.png
+  title: MI - matchID
+  link_to: /defis/2017/mi-matchid.html
+  class: 2017 web 
+  desc: Développement

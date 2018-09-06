@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Programme Eig Point De Vue Technique</title>
+  <meta name="description" content="Quelles sont les « stacks » des défis EIG ?  Font-ils de « l'agile » ?  Comment sont leurs outils de gestion de projet ?  Où est publié leur code ?  Quels ri...">
+
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/foundation.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/jquery-ui.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/style.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/fontello.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/font-awesome.css">
+
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/modernizr.foundation.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery-2.1.0.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/terrific-1.1.1.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.url.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.cookie.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery-ui.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/json2.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/foundation.js" type="text/javascript"></script>
+  <script>
+  jQuery( function() {
+    jQuery( "#accordion" ).accordion();
+  } );
+  </script>
+  <script>
+    // terrificjs bootstrap
+    (function($) {
+        $(document).ready(function() {
+            var $page = $('body');
+            var config = {
+              dependencyPath: {
+                plugin: 'javascripts/'
+              }
+            }
+            var application = new Tc.Application($page, config);
+            application.registerModules();
+            application.start();
+        });
+    })(Tc.$);
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/masonry.pkgd.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/slick.min.js" type="text/javascript"></script>
+
+  <link rel="canonical" href="http://site-eig.etalab.gouv.frhttp://site-eig.etalab.gouv.fr/blog/2018/03/16/programme-eig-point-de-vue-technique.html">
+  <link rel="alternate" type="application/rss+xml" title="Entrepreneur d'intérêt général" href="http://site-eig.etalab.gouv.frhttp://site-eig.etalab.gouv.fr/feed.xml" />
+</head>
+
+
+  <body>
+
+    <a href="" id="top"></a>
+<div class='contain-to-grid sticky'>
+  <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class='name'>
+        <h1>
+          <a href="http://site-eig.etalab.gouv.fr/index.html">
+            <img alt="Logo EIG" width="100px" src="http://site-eig.etalab.gouv.fr/img/bloque-marque-marianne.png" />
+          </a>
+        </h1>
+      </li>
+      <li class='toggle-topbar menu-icon'>
+        <a href='#'>Menu</a>
+      </li>
+    </ul>
+    <section class='top-bar-section'>
+      <ul class="right">
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">Le programme</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/presentation.html">Notre ambition</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/accompagnement.html">Notre offre d'accompagnement</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/faq-eig.html">F.A.Q. Entrepreneur</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/faq-administrations.html">F.A.Q. Administration</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">Les projets</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/defis.html">Nos défis</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/realisations.html">Nos réalisations</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">La communauté</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/communaute.html">Les EIG et mentors</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/evenements.html">Nos événements</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="">
+              <a href="http://site-eig.etalab.gouv.fr//blog/">Le blog</a>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown lastmenu">
+	      
+	      <a href="http://site-eig.etalab.gouv.fr/participer.html">Participer</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/candidature-eig.html">Je suis un candidat</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/candidature-defi.html">Je suis une administration</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </section>
+  </nav>
+</div>
+
+
+    <div id='main' role='main'>
+      <div class="full">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class='mod modBlogPost big no_bg'>
+  <div class='images'>
+    
+  </div>
+  <div class='content'>
+    <p class='info'>
+      <span>
+	
+	16
+	mars
+	
+	2018
+      </span>
+      /
+      <span>
+        de
+        <a href="https://entrepreneur-interet-general.etalab.gouv.fr/">Bastien Guerry, EIG Link</a>
+	
+        <a href="https://twitter.com/bzg2"><i class='fa fa-twitter'></i></a>
+	
+      </span>
+    </p>
+    <!-- https://mycyberuniverse.com/web/social-media-share-bar-jekyll-blog-website.html -->
+<div id="share-bar">
+  <div class="share-buttons">
+    <a href="https://twitter.com/intent/tweet?text=«%20Programme Eig Point De Vue Technique%20»%20:%20http://site-eig.etalab.gouv.fr/blog/2018/03/16/programme-eig-point-de-vue-technique.html%20%23eig2018%20cc%20@etalab"
+       target="new"
+       title="Partager sur Twitter">
+      <i class="fa fa-twitter share-button"> Twitter</i>
+    </a>
+    <a href="mailto:?subject=À lire : Programme Eig Point De Vue Technique&amp;body=Un article que je te recommande :\nhttp://site-eig.etalab.gouv.fr/blog/2018/03/16/programme-eig-point-de-vue-technique.html\n\nÀ bientôt !"
+       target="new"
+       title="Partager par courriel">
+      <i class="fa fa-envelope share-button"> Courriel</i>
+    </a>
+  </div>
+</div>
+
+
+    <p>Les 28 « entrepreneur·es d’intérêt général » ne sont pas isolés les
+uns des autres : ils échangent et font progresser la cohérence
+technique du programme en mettant en place des outils mutualisés et
+des rituels.  Mon défi <a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/eiglink/">EIG
+Link</a>
+a pour mission d’encourager et de pérenniser cette cohésion de groupe
+et cette cohérence technique.  <strong>On avance et ça se voit</strong> !</p>
+
+<p><img src="/img/LLL_ZoeJung_IMG_4987.jpg" alt="Thérapie de groupe pour les EIG !  On parle de nos expériences
+tech." /> <em>Thérapie de groupe pour les
+EIG !  On parle de nos expériences tech lors du bootcamp © Zoe Jung.</em></p>
+
+<h1 id="le-bootcamp--un-moment-de-forte-cohésion">Le bootcamp : un moment de forte cohésion</h1>
+
+<p>Soizic Pénicaud (Etalab) l’a très bien raconté dans <a href="https://entrepreneur-interet-general.etalab.gouv.fr/posts/2018/02/27/bootcamp-comment-souder-un-collectif-de-talents/">cette entrée de
+blog</a>,
+le bootcamp EIG fut un moment important pour la cohésion du groupe :
+nous avons sympathisé et nous avons beaucoup échangé sur tous nos
+défis.</p>
+
+<p>La « <a href="https://twitter.com/la_bulloterie">bulloterie</a> » (un format de
+découverte des compétences d’un groupe, imaginé par <a href="https://twitter.com/Anachitect">Sébastien
+Kurt</a>) a donné lieu à un premier
+protoype développé par Philéas Condemine, du défi <a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/labsante/">Lab
+Santé</a>.
+Paul Schmite d’Etalab a ensuite saisi l’ensemble de ces données et
+j’ai dans ma TODO liste de proposer une interface web pour les
+explorer de façon interactive.  En attendant, les défis présentent
+leurs outils dans un fichier
+<a href="https://github.com/entrepreneur-interet-general/eig-link/blob/master/stack.org">stack.org</a>
+qui continue d’évoluer.</p>
+
+<p><img src="/img/bulloterie_apercu.jpg" alt="Un aperçu de l'exercice de « bulloterie » lors du
+bootcamp" /> <em>Un aperçu de l’exercice de
+« bulloterie » lors du bootcamp</em></p>
+
+<p><img src="/img/bulloterie_proto.png" alt="Le prototype pour visualiser la
+bulloterie" /> <em>Le prototype pour visualiser
+la bulloterie, développé par Philéas en shinyapps.io</em></p>
+
+<p>Le bootcamp a aussi été l’occasion de proposer quelques premiers
+projets collaboratifs, dont un dépôt pour partager des
+<a href="https://github.com/entrepreneur-interet-general/tutos-2018">tutoriels</a>
+et une liste
+d’<a href="https://github.com/entrepreneur-interet-general/eig-link/blob/master/boite-a-outils.org" title=" ">outils</a> : voyez par exemple le tutoriel publié par Julien Naour, du défi
+<a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/labsante/">Lab
+Santé</a>,
+sur une <a href="https://gitlab.com/jnaour/tutoriel-gitlab/wikis/tutoriel-gitlab">introduction à
+Gitlab</a> :
+typiquement ce qu’on essaie de faire quand on parle de
+« transformation numérique » des administrations !</p>
+
+<h1 id="la-gestion-de-projet--subsidiarité-et-dénominateur-commun">La gestion de projet : subsidiarité et dénominateur commun</h1>
+
+<p>Le programme EIG est l’occasion d’introduire un peu d’« agilité » dans
+la façon dont les administrations gèrent les projets.  Les principes
+de cette « agilité » sont bien résumés dans <a href="https://www.gov.uk/service-manual/agile-delivery/core-principles-agile">ce
+document</a>
+du gouvernement britannique :</p>
+
+<ul>
+  <li>se concentrer sur les besoins des utilisateurs ;</li>
+  <li>publier les livrables de manière itérative ;</li>
+  <li>améliorer constamment la manière dont l’équipe travaille ;</li>
+  <li>échouer tôt et apprendre rapidement ;</li>
+  <li>planifier constamment.</li>
+</ul>
+
+<p>En dehors de ces grandes directions, pas question d’imposer une
+méthode agile particulière (SCRUM ou autre) ni d’outil spécifique pour
+la mettre en oeuvre.  Les EIG sont force de proposition, mais par
+principe de subsidiarité, ils définissent leurs méthodes et leurs
+outils en fonctions des contraintes locales, avec leurs mentors et
+leurs équipes d’accueil.</p>
+
+<p>Certains défis
+(<a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/archemse/" title=" ">Archifiltre</a>,
+<a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/balisenav/">b@liseNAV</a>,
+<a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/socialconnect/">SocialConnect</a>)
+sont donc déjà lancés dans des <em>sprints</em> avec des <em>user stories</em> bien
+définies, mais ce modèle n’est pas commun. Pour le défi
+<a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/brigadenumerique/">BrigadeNumérique</a>,
+Dora et Jean-Baptiste utilisent l’outil de kanboard que j’ai installé
+sur notre serveur, mais d’autres équipes utilisent des outils locaux.</p>
+
+<p><img src="/img/brigadenumerique-board.png" alt="L'utilisation du &quot;kanboard&quot; par le défi BridageNumérique" />
+<em>L’utilisation du “kanboard” par le défi BridageNumérique</em></p>
+
+<p>En revanche, pour continuer de multiplier les points de contact entre
+défis, il nous faut un <strong>un outil de suivi collectif</strong>.  Pour
+l’instant, nous stockons les retours hebdomadaires de chaque défi dans
+ce <a href="https://github.com/entrepreneur-interet-general/eig-link/blob/master/suivi.org">gros fichier
+partagé</a>. Ce
+n’est pas le plus pratique, mais c’est un premier test avant d’avoir
+un outil web plus adapté.</p>
+
+<h1 id="les-outils--adaptation-et-mutualisation">Les outils : adaptation et mutualisation</h1>
+
+<p>Le dépôt
+<a href="https://github.com/entrepreneur-interet-general/eig-link">eig-link</a>
+présente l’ensemble des outils mis à disposition des EIG :</p>
+
+<ul>
+  <li>un serveur <a href="https://www.proxmox.com">Proxmox</a> de 32GO ;</li>
+  <li>un espace de fichiers partagés avec <a href="http://nextcloud.com/">Nextcloud</a> ;</li>
+  <li>un <a href="https://cloud.eig-forever.org/index.php/apps/calendar/p/5S4DP594PDIVTARU/EIG2018">agenda commun public</a> (via notre instance Nextcloud) ;</li>
+  <li>un <a href="https://cloud.eig-forever.org/index.php/apps/calendar/p/C1YPGSGZ1JZPVDDU/EIG2018-Open">agenda des événements annexes</a> qui nous intéressent ;</li>
+  <li>une instance de <a href="http://gogs.io">gogs</a> pour des dépôts privés ;</li>
+  <li>une instance de <a href="http://kanboard.org/">kanboard</a> ;</li>
+  <li>une instance de <a href="https://matomo.org">Matomo</a> pour des statistiques.</li>
+  <li>un client web <a href="https://kiwiirc.com">Kiwirc</a> pour nous connecter à notre canal IRC.</li>
+</ul>
+
+<p>Cela va sans dire (mais cela va mieux en le disant) : ces outils
+mutualisés s’appuient tous sur des <a href="https://fr.wikipedia.org/wiki/Logiciel_libre">logiciels
+libres</a> !</p>
+
+<p>La question qui se pose souvent est celle-ci : si un EIG a besoin
+d’une machine virtuelle pour son défi, doit-il la demander à son
+administration ou doit-il utiliser celle que nous mettons à sa
+disposition via notre panoplie d’outils ? Les deux, mon capitaine !
+Les outils EIG n’ont pas vocation à remplacer ceux que les
+administrations mettront en place pour pérenniser les projets, mais à
+dépanner et à montrer comment ces solutions se mettent en oeuvre.  Si
+ces outils aident à assurer la transition, c’est bien ; s’ils sont
+l’occasion d’une discussion avec des DSI pour voir comment faire
+évoluer leurs systèmes, c’est encore mieux !</p>
+
+<h1 id="les-rituels--less-is-more">Les rituels : « less is more »</h1>
+
+<p>Les « rituels » sont les habitudes de travail que nous prenons en tant
+que groupe.  Nous essayons de les rendre <a href="http://www.paulgraham.com/makersschedule.html">peu
+invasifs</a> et de les
+garder les plus collectifs possible.</p>
+
+<ul>
+  <li>
+    <p>Nous communiquons au quotidien via le service slack et via une liste
+de discussion de <a href="https://framalistes.org">framalistes.org</a>.</p>
+  </li>
+  <li>
+    <p>Entre le jeudi soir et le vendredi midi, une personne de chaque défi
+envoie un message sur la liste avec un point hebdomadaire sur ce qui
+a été fait et ce qui va être fait.</p>
+  </li>
+  <li>
+    <p>Nous discutons de cela sur slack entre 11h30 et 12h30 le vendredi.</p>
+  </li>
+  <li>
+    <p>Nous nous retrouvons en présentiel au <a href="https://www.liberte.paris/liberte-living-lab">Liberté Living
+Lab</a> un jeudi tous les
+quinze jours pour le programme d’accompagnement, soit entre EIG soit
+avec les mentors.</p>
+  </li>
+  <li>
+    <p>Nous nous retrouvons les mercredi après-midi pour simplement être
+assis dans la même salle du LLL et travailler ensemble.</p>
+  </li>
+</ul>
+
+<p>Ce qui se met en place doucement :</p>
+
+<ul>
+  <li>
+    <p>Des sessions de « revue de code » avec Quentin Decock, du Liberté
+Living Lab. La première a eu lieu le 14 mars autour du logiciel
+<a href="http://github.com/entrepreneur-interet-general/OpenScraper">OpenScraper</a>
+et du défi
+<a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/donneesauvetagemaritime/">Prédisauvetage</a>.
+Nous allons en reprogrammer une bientôt.</p>
+  </li>
+  <li>
+    <p>Des sessions d’échanges techniques libres le mercredi avec des
+« invités », des ressources du réseau des EIG (merci à Tiphaine
+Phe-Neau du défi
+<a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/previsecours/">Prévisecours</a>
+d’avoir lancé cette idée !)</p>
+  </li>
+</ul>
+
+<p>Ce qui est intéressant, c’est que tout cela évolue : l’idée de se
+retrouver le mercredi après-midi pour travailler a été proposée par
+les EIG ; certains s’impliquent dans la conception des séances du
+programme d’accompagnement ; et nous réfléchissons à la manière de
+rendre le point hebdomadaire du vendredi midi plus efficace.  Nous
+envisageons notamment de le faire sur IRC plutôt que sur slack pour
+l’ouvrir à toute personne désireuse d’en apprendre plus sur les défis
+et le programme.</p>
+
+<p><img src="/img/LLL_ZoeJung_IMG_5169.jpg" alt="Rencontre avec Quentin Decock lors du bootcamp, le référent technique du LLL" />
+<em>Rencontre avec Quentin Decock lors du bootcamp, le référent technique du LLL</em></p>
+
+<h1 id="lécosystème--no-eig-is-an-island">L’écosystème : <em>No EIG is an island</em></h1>
+
+<p>En plus de l’entraide naturelle au sein des équipes d’EIG par défi,
+l’entraide <em>entre</em> défis se développe.</p>
+
+<p>Cette entraide s’exprime dans la création de canaux techniques dédiés
+sur le slack, en présentiel le mercredi ou lors des sessions de revue
+de code.</p>
+
+<p>Au-delà, les EIG de cette deuxième promotion interragissent avec ceux
+de la première et avec les développeurs et les datascientistes
+d’Etalab. C’est par exemple Victor Schmidt du défi
+<a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/hopkins/">Hopkins</a>
+qui fait remonter un souci avec le logo du <a href="https://entrepreneur-interet-general.etalab.gouv.fr">site
+EIG</a>, souci
+auquel répond <a href="https://twitter.com/seiteta">Frédéric Bardolle</a> de la
+première promotion… ou bien Christophe Ninucci du défi <a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/signauxfaibles/">Signaux
+Faibles</a>
+qui pose une question à Christian Quest d’Etalab, et leur échange qui
+aboutit à la publication d’un <a href="https://www.data.gouv.fr/fr/datasets/historique-des-changements-de-codes-siret/">nouveau jeu de
+données</a>
+sur https://data.gouv.fr.  Ce sont aussi les EIG qui participent au
+forum « Open d’État » - voir ce tweet de <a href="https://twitter.com/jbledevehat">Jean-Baptiste Le
+Dévéhat</a>, du défi
+<a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/brigadenumerique/">BrigadeNumérique</a> :</p>
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Première rencontre du forum &quot;Open d’Etat&quot; <a href="https://twitter.com/hashtag/OpenGov?src=hash&amp;ref_src=twsrc%5Etfw">#OpenGov</a> <a href="https://twitter.com/hashtag/OpendEtat?src=hash&amp;ref_src=twsrc%5Etfw">#OpendEtat</a> <a href="https://twitter.com/Etalab?ref_src=twsrc%5Etfw">@Etalab</a> <a href="https://twitter.com/datactivi_st?ref_src=twsrc%5Etfw">@datactivi_st</a> <a href="https://twitter.com/vrmtvrmt?ref_src=twsrc%5Etfw">@vrmtvrmt</a> <a href="https://t.co/gdn5MZzJDz">pic.twitter.com/gdn5MZzJDz</a></p>&mdash; Jean-Baptiste Le Dévéhat (@jbledevehat) <a href="https://twitter.com/jbledevehat/status/973256889051045888?ref_src=twsrc%5Etfw">12 mars 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>C’est ce qu’on pourrait appeler le niveau « <strong>EIG²</strong> », quand on
+croise nos ancêtres les EIG 1, nos cousins d’Etalab ou les acteurs de
+la transformation numérique… comme lorsqu’Emmanuel Gautier, du défi
+<a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/archemse/">Archifiltre</a>,
+passe un coup de balai après avoir passé la nuit à coder pour <a href="http://nuitcodecitoyen.org">la nuit
+du code citoyen</a>.</p>
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Manu, le <a href="https://twitter.com/hashtag/DataScientist?src=hash&amp;ref_src=twsrc%5Etfw">#DataScientist</a> parfait : il passe la serpillière <a href="https://twitter.com/LaPaillasse?ref_src=twsrc%5Etfw">@LaPaillasse</a> après avoir aidé des projets de <a href="https://twitter.com/hashtag/NuitCodeCitoyen?src=hash&amp;ref_src=twsrc%5Etfw">#NuitCodeCitoyen</a> pendant 24h non-stop à la <a href="https://twitter.com/hashtag/SocialGoodWeek?src=hash&amp;ref_src=twsrc%5Etfw">#SocialGoodWeek</a> ! <a href="https://t.co/Pt5aGNvbCh">pic.twitter.com/Pt5aGNvbCh</a></p>&mdash; Latitudes (@LatitudesTfG) <a href="https://twitter.com/LatitudesTfG/status/972570281901481985?ref_src=twsrc%5Etfw">10 mars 2018</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p><img src="/img/nuitducodecitoyen.jpg" alt="Emmanuel, encore debout après une nuit de code citoyen" />
+<em>Emmanuel, encore debout après une nuit de code citoyen</em></p>
+
+<p>… enfin, plus loin encore, il y a le niveau « <strong>EIG³</strong> » ! C’est
+quand on se jette carrément dans le grand bain et qu’on publie des
+propositions d’améliorations de logiciels libres, le bien commun de
+l’écosystème auquel on contribue ! C’est Christophe ouvrant <a href="https://github.com/tidyverse/dplyr/issues/3355">une
+<em>issue</em></a> dans le
+Tidyverse ; Tiphaine qui sollicite une <em>pull request</em> pour le code
+d’<a href="https://github.com/anthill/open-moulinette/pull/61">open-moulinette</a> ;
+ou Victor qui partage la librairie python
+<a href="https://pypi.org/project/mkinx/">mkinx</a>.</p>
+
+<p>Vous l’avez compris : <strong>on met les mains dans le cambouis, on avance,
+on aime ça et ça se voit</strong> !</p>
+
+<h1 id="le-défi-eig-link-cest-quoi">Le défi EIG Link, c’est quoi ?</h1>
+
+<p>Je ne suis ni « animateur », ni « manager », mais agent de <strong>liaison</strong>
+et de <strong>valorisation</strong>.</p>
+
+<p>J’essaie de détecter des <em>besoins communs</em> aux défis et de mettre en
+oeuvre des solutions : celles-ci peuvent se trouver soit du côté des
+outils (par ex. aider à la prise en main des machines virtuelles),
+soit du côté de la communication (par ex. aider un défi à avancer sur
+les aspects de <em>product research</em>).</p>
+
+<p>Pour la valorisation, je n’ai qu’à me baisser et ramasser tellement
+cela foisonne – mais c’est justement un problème délicat à résoudre :
+quelle interface mettre en place pour rendre accessible tout ce qui se
+fait ?  À suivre…</p>
+
+<h1 id="use-the-source-luke">Use The Source, Luke.</h1>
+
+<p>Assez parlé, retrouvez <strong>tout le code</strong> que nous développons dans
+notre <a href="https://github.com/entrepreneur-interet-general/">organisation sur
+github.com</a>.</p>
+
+<p>Si vous avez des questions, n’hésitez pas : <code class="highlighter-rouge">bastien.guerry @ data.gouv.fr</code></p>
+
+<p>À bientôt pour d’autres nouvelles de nos avancées techniques !</p>
+
+    <!-- https://mycyberuniverse.com/web/social-media-share-bar-jekyll-blog-website.html -->
+<div id="share-bar">
+  <div class="share-buttons">
+    <a href="https://twitter.com/intent/tweet?text=«%20Programme Eig Point De Vue Technique%20»%20:%20http://site-eig.etalab.gouv.fr/blog/2018/03/16/programme-eig-point-de-vue-technique.html%20%23eig2018%20cc%20@etalab"
+       target="new"
+       title="Partager sur Twitter">
+      <i class="fa fa-twitter share-button"> Twitter</i>
+    </a>
+    <a href="mailto:?subject=À lire : Programme Eig Point De Vue Technique&amp;body=Un article que je te recommande :\nhttp://site-eig.etalab.gouv.fr/blog/2018/03/16/programme-eig-point-de-vue-technique.html\n\nÀ bientôt !"
+       target="new"
+       title="Partager par courriel">
+      <i class="fa fa-envelope share-button"> Courriel</i>
+    </a>
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <div id='footer'>
+  <div class='three spacing'></div>
+  <div class='row'>
+    <div class='large-4 medium-4 columns'>
+      <h1>
+        <a href='/index.html'>
+          <img alt="" src="http://site-eig.etalab.gouv.fr/images/logo-grey.png" />
+        </a>
+      </h1>
+      <ul>
+	  <li><a href="/feed.xml">Vous abonner au flux RSS du blog EIG</a></li>
+	  <li><a href="/cgu.html">Conditions générales d'utilisation</a></li>
+      </ul>
+      <p>© 2017-2018 Entrepreneur d'intérêt général</p>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-4 medium-4 columns centered-text'>
+      <div class='spacing'></div>
+      <h3>Écosystème</h3>
+      <ul>
+        <li><a href="https://www.etalab.gouv.fr">Etalab</a></li>
+        <li><a href="https://data.gouv.fr">data.gouv.fr</a></li>
+        <li><a href="https://beta.gouv.fr">beta.gouv</a></li>
+	<li><a href="https://twitter.com/_DINSIC">DINSIC</a></li>
+      </ul>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-4 medium-4 columns'>
+	<div class='spacing'></div>
+	<h3>Nous écrire</h3>
+	<ul class='socials'>
+	    <li>
+		<a href="mailto:entrepreneur-interet-general@data.gouv.fr">entrepreneur-interet-general@data.gouv.fr</a>
+	    </li>
+	    <div class='spacing'></div>
+            <li>
+		<a target="new" title="Nous contacter via le formulaire" href='/contact.html'>
+		    <i class='fa fa-envelope'></i>
+		</a>
+            </li>
+            <li>
+		<a target="new" title="Compte Twitter @etalab" href='https://twitter.com/etalab'>
+		    <i class='fa fa-twitter'></i>
+		</a>
+            </li>
+            <li>
+		<a target="new" title="Compte Github EIG" href='https://github.com/entrepreneur-interet-general'>
+		    <i class='fa fa-github'></i>
+		</a>
+            </li>
+	</ul>
+	<div class='spacing'></div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.countTo.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.appear.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.validate.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.sequence-min.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/app.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.entrepreneur-interet-general.etalab.gouv.fr","*.entrepreneur-interet-general.etalab.gouv.fr"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+      var u="//stats.data.gouv.fr/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '37']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//stats.data.gouv.fr/piwik.php?idsite=37" style="border:0;" alt="" />
+
+
+  </body>
+
+</html>

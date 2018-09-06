@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Leximpact</title>
+  <meta name="description" content="Développeur·euse·s, data scientists, designers, agilistes, passionné·e·s de numérique et d’action publique.
+">
+
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/foundation.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/jquery-ui.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/style.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/fontello.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/font-awesome.css">
+
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/modernizr.foundation.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery-2.1.0.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/terrific-1.1.1.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.url.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.cookie.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery-ui.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/json2.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/foundation.js" type="text/javascript"></script>
+  <script>
+  jQuery( function() {
+    jQuery( "#accordion" ).accordion();
+  } );
+  </script>
+  <script>
+    // terrificjs bootstrap
+    (function($) {
+        $(document).ready(function() {
+            var $page = $('body');
+            var config = {
+              dependencyPath: {
+                plugin: 'javascripts/'
+              }
+            }
+            var application = new Tc.Application($page, config);
+            application.registerModules();
+            application.start();
+        });
+    })(Tc.$);
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/masonry.pkgd.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/slick.min.js" type="text/javascript"></script>
+
+  <link rel="canonical" href="http://site-eig.etalab.gouv.frhttp://site-eig.etalab.gouv.fr/defis/2019/leximpact.html">
+  <link rel="alternate" type="application/rss+xml" title="Entrepreneur d'intérêt général" href="http://site-eig.etalab.gouv.frhttp://site-eig.etalab.gouv.fr/feed.xml" />
+</head>
+
+
+  <body>
+
+    <a href="" id="top"></a>
+<div class='contain-to-grid sticky'>
+  <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class='name'>
+        <h1>
+          <a href="http://site-eig.etalab.gouv.fr/index.html">
+            <img alt="Logo EIG" width="100px" src="http://site-eig.etalab.gouv.fr/img/bloque-marque-marianne.png" />
+          </a>
+        </h1>
+      </li>
+      <li class='toggle-topbar menu-icon'>
+        <a href='#'>Menu</a>
+      </li>
+    </ul>
+    <section class='top-bar-section'>
+      <ul class="right">
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">Le programme</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/presentation.html">Notre ambition</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/accompagnement.html">Notre offre d'accompagnement</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/faq-eig.html">F.A.Q. Entrepreneur</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/faq-administrations.html">F.A.Q. Administration</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">Les projets</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/defis.html">Nos défis</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/realisations.html">Nos réalisations</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">La communauté</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/communaute.html">Les EIG et mentors</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/evenements.html">Nos événements</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="">
+              <a href="http://site-eig.etalab.gouv.fr//blog/">Le blog</a>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown lastmenu">
+	      
+	      <a href="http://site-eig.etalab.gouv.fr/participer.html">Participer</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/candidature-eig.html">Je suis un candidat</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/candidature-defi.html">Je suis une administration</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </section>
+  </nav>
+</div>
+
+
+    <div id='main' role='main'>
+      <div class='full'>
+  <div class='row'>
+    <div class='large-7 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          
+          <div class="slide">
+            <img src="http://site-eig.etalab.gouv.fr//img/logo-lex-impact.png" alt="">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class='large-5 columns'>
+      <h3>LexImpact</h3>
+      <ul class='info'>
+        <li>
+          <strong>Année :</strong>
+          2019
+        </li>
+        <li>
+          <strong>Administration :</strong>
+          <a href='https://www.etalab.gouv.fr/qui-sommes-nous' target='new'>Direction interministérielle et du système d’information et de communication de l'Etat</a>
+        </li>
+        <li>
+          <strong>Mission :</strong>
+          Évaluer l’impact de réformes socio-fiscales en développant des interfaces de simulation utilisables par tous
+        </li>
+	
+        <li>
+          <strong>Type :</strong> <!-- FIXME: type est mauvais -->
+          Design & Développement 
+        </li>
+	
+        <li>
+            <strong>EIGs :</strong>
+	    
+	    
+	    Un·e designeur.se lean UX avec un goût prononcé pour le code
+	    
+	    
+            /
+            
+	    
+	    
+	    Un·e développeur·se Python/JavaScript avec un goût prononcé pour les données
+	    
+	    
+	    
+        </li>
+        <li>
+            <strong>Mentors :</strong>
+	    
+	    
+	    <a href='/communaute/2019/mauko-quiroga.html'>Mauko Quiroga</a>
+	    
+	    
+            /
+            
+	    
+	    
+	    <a href='/communaute/2019/sandra-chakroun.html'>Sandra Chakroun</a>
+	    
+	    
+	    
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      
+      <a class='button red small' href='/candidature-eig.html'>Je candidate !</a>
+      <a class='button small' href='/candidature-eig.html'>Voir les autres défis</a>
+      
+    </div>
+    <div class='large-12 columns'>
+	<p>
+            <p>La Direction Interministérielle du Numérique et du Système d’Information
+et de Communication de l’État (<a href="http://www.modernisation.gouv.fr/documentation/decrets/une-nouvelle-organisation-pour-la-transformation-publique-et-numerique-de-letat-decrets-du-20-novembre-2017">DINSIC</a>) souhaite développer, notamment pour le Parlement et la société civile, une application permettant
+d’évaluer, de façon simple, rapide et ouverte, l’impact de réformes
+socio-fiscales sur les citoyens et les citoyennes.</p>
+
+<h2 id="leximpact--évaluer-limpact-de-réformes-socio-fiscales-en-développant-des-interfaces-de-simulation-utilisables-par-tous">LexImpact : Évaluer l’impact de réformes socio-fiscales en développant des interfaces de simulation utilisables par tous</h2>
+
+<h3 id="la-problématique">La problématique</h3>
+
+<p>Aujourd’hui, connaissez-vous l’impact de la prochaine réforme sur votre situation personnelle ? Probablement pas et c’est normal. Les députés aimeraient aussi le connaître lorsqu’ils doivent se positionner sur des projets de loi.
+Assemblée Nationale, Sénat et Cour des Comptes expriment régulièrement le besoin de disposer de davantage d’information indépendante à l’évaluation des effets de textes de loi.</p>
+
+<p>L’étude d’impact des réformes reste particulièrement difficile à
+réaliser, en particulier lorsque les délais sont courts. Dans le domaine fiscal, des modèles
+ont été développés par plusieurs administrations (DGFiP, INSEE, DINSIC, etc.), mais leur usage est limité, soit parce que les données ou logiciels ne sont pas ouverts ou en raison de leur difficulté de prise en main technique.</p>
+
+<p>Pourtant, cette capacité à réaliser plus facilement et rapidement des analyses
+d’impact apparaît comme un enjeu primordial de notre démocratie, tant
+pour améliorer le processus législatif que pour des questions de
+transparence et d’engagement de la société civile.</p>
+
+<p><strong>Comment rendre l’évaluation des réformes socio-fiscales plus accessible et permettre aux parlementaires, aux agents publics et à la société civile de mener des analyses indépendantes et transparentes ?</strong></p>
+
+<h3 id="le-défi--développer-un-outil-accessible-permettant-dévaluer-limpact-de-réformes-socio-fiscales">Le défi : développer un outil accessible permettant d’évaluer l’impact de réformes socio-fiscales</h3>
+
+<p>Aujourd’hui, <a href="http://openfisca.org">OpenFisca</a> est un logiciel open source qui comprend des règles de la législation socio-fiscale et permet de réaliser des simulations sur des situations de personnes ou une population entière.</p>
+
+<p>Il est en particulier utilisé par <a href="http://etalab.gouv.fr">Etalab</a>, l’Incubateur <a href="https://beta.gouv.fr">beta.gouv.fr</a>, l’<a href="https://www.ipp.eu">IPP</a>, la <a href="http://www.msa.fr">MSA</a> et l’<a href="https://www.idep-fr.org">IDEP</a> mais ce commun contributif n’est pas directement accessible à tous les types d’utilisateurs puisqu’il requiert des compétences en code informatique.</p>
+
+<p><strong>LexImpact a pour ambition de rendre l’évaluation socio-fiscale accessible à tous</strong>.</p>
+
+<p>Plusieurs axes :</p>
+
+<ul>
+  <li>Construire une application open source permettant de réaliser de façon simple et rapide des simulations de réformes socio-fiscales, en particulier : les analyses de réformes paramétriques (changements d’assiettes et de taux) et d’impacts sur le revenu disponible, les transferts de charges, le budget de l’État et des collectivités ;</li>
+  <li>Recueillir des données représentatives pour alimenter l’outil : situations de personnes, données budgétaires et financières, … ;</li>
+  <li>Systématiser la confrontation de l’application et la prise en compte des retours avec ses usagers : parlementaires, services administratifs, membres de la société civile ;</li>
+  <li>Réaliser des modules pédagogiques à destination de différents types d’utilisateurs et développer l’usage de l’outil au sein d’administrations partenaires ;</li>
+  <li>Imaginer une généralisation de l’outil à l’ensemble des réformes législatives.</li>
+</ul>
+
+<p>Une grande partie des règles et des paramètres socio-fiscaux est d’ores et déjà développée dans le modèle <a href="https://fr.openfisca.org/legislation/">OpenFisca-France</a>. Des données du budget de l’état ainsi que des données démographiques sont en accès libre. Il reste à élaborer une base représentative de situations de personnes et à étendre la connaissance des structures de réformes usuelles.</p>
+
+<p>Avant l’arrivée des EIG, les principales institutions partenaires - DINSIC, Assemblée Nationale, Cour des Comptes, Sénat- seront rencontrées pour identifier les conditions d’accès aux modèles de populations existants ou à co-construire. En parallèle, un ensemble de cas types décrivant des situations de personnes et de groupes de personnes sera rassemblé pour servir de base de départ aux travaux des EIG.
+Les types de réformes que l’application serait amenée à traiter seront affinés par des entretiens utilisateurs.</p>
+
+<h2 id="les-eig-recherchées">Les EIG recherché.e.s</h2>
+
+<h3 id="eig-1---une-designeurse--lean-ux-avec-un-goût-prononcé-pour-le-code">EIG 1 - Un·e designeur.se / Lean UX avec un goût prononcé pour le code</h3>
+
+<p><strong>Missions principales</strong> : prototyper l’outil, mener des tests utilisateurs, améliorer constamment l’expérience utilisateur, assurer la médiation avec la société civile et les partenaires du défi (Assemblée nationale, Cour des comptes, Sénat et d’éventuels nouveaux partenaires).</p>
+
+<p><strong>Compétences nécessaires</strong> : design UX, gestion de projet, communication. Une connaissance de la fiscalité sera un plus.</p>
+
+<h3 id="eig-2---une-développeurse-pythonjavascript-avec-un-goût-prononcé-pour-les-données">EIG 2 - Un·e développeur·se Python/JavaScript avec un goût prononcé pour les données</h3>
+
+<p><strong>Missions principales</strong> : développer l’outil (interface utilisateur, backend…), déployer l’outil, compiler/éditorialiser/mettre à disposition des cas types, faire évoluer l’API Réforme d’OpenFisca Core.</p>
+
+<p><strong>Compétences nécessaires</strong> : Python, JavaScript. Une connaissance de la fiscalité sera un plus.</p>
+
+<p><br /></p>
+
+<h2 id="léquipe-autour-des-eig">L’équipe autour des EIG</h2>
+
+<p><img src="/img/communaute/mauko-quiroga.png" alt="Mauko Quiroga" /></p>
+
+<p>Artisan du logiciel et des méthodes de développement produit, Mauko
+Quiroga est membre de l’équipe <a href="https://openfisca.org/fr/">OpenFisca</a>
+à la DINSIC. Passionné des méthodes de travail agiles et Kanban, il travaille au sein de l’Incubateur <a href="http://beta.gouv.fr">beta.gouv.fr</a> où il s’engage dans la construction de services publics numériques.</p>
+
+<p><img src="/img/communaute/sandra-chakroun.jpg" alt="Sandra Chakroun" /></p>
+
+<p>Développeuse informaticienne, Sandra Chakroun est actuellement membre de l’équipe <a href="https://openfisca.org/fr/">OpenFisca</a> à la DINSIC.
+Diplômée d’un Master 2 d’Informatique de l’Université Pierre &amp; Marie Curie (<a href="https://www.sorbonne-universite.fr">Sorbonne Université</a>), 
+elle s’adapte aux différentes technologies de programmation logicielle. 
+Elle assurera un accompagnement technique et humain pour l’intégration des EIG dans 
+la communauté de contributeurs à <a href="https://github.com/openfisca/openfisca-france/graphs/contributors">OpenFisca France</a>.</p>
+
+	</p>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+    </div>
+
+    <div id='footer'>
+  <div class='three spacing'></div>
+  <div class='row'>
+    <div class='large-4 medium-4 columns'>
+      <h1>
+        <a href='/index.html'>
+          <img alt="" src="http://site-eig.etalab.gouv.fr/images/logo-grey.png" />
+        </a>
+      </h1>
+      <ul>
+	  <li><a href="/feed.xml">Vous abonner au flux RSS du blog EIG</a></li>
+	  <li><a href="/cgu.html">Conditions générales d'utilisation</a></li>
+      </ul>
+      <p>© 2017-2018 Entrepreneur d'intérêt général</p>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-4 medium-4 columns centered-text'>
+      <div class='spacing'></div>
+      <h3>Écosystème</h3>
+      <ul>
+        <li><a href="https://www.etalab.gouv.fr">Etalab</a></li>
+        <li><a href="https://data.gouv.fr">data.gouv.fr</a></li>
+        <li><a href="https://beta.gouv.fr">beta.gouv</a></li>
+	<li><a href="https://twitter.com/_DINSIC">DINSIC</a></li>
+      </ul>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-4 medium-4 columns'>
+	<div class='spacing'></div>
+	<h3>Nous écrire</h3>
+	<ul class='socials'>
+	    <li>
+		<a href="mailto:entrepreneur-interet-general@data.gouv.fr">entrepreneur-interet-general@data.gouv.fr</a>
+	    </li>
+	    <div class='spacing'></div>
+            <li>
+		<a target="new" title="Nous contacter via le formulaire" href='/contact.html'>
+		    <i class='fa fa-envelope'></i>
+		</a>
+            </li>
+            <li>
+		<a target="new" title="Compte Twitter @etalab" href='https://twitter.com/etalab'>
+		    <i class='fa fa-twitter'></i>
+		</a>
+            </li>
+            <li>
+		<a target="new" title="Compte Github EIG" href='https://github.com/entrepreneur-interet-general'>
+		    <i class='fa fa-github'></i>
+		</a>
+            </li>
+	</ul>
+	<div class='spacing'></div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.countTo.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.appear.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.validate.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.sequence-min.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/app.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.entrepreneur-interet-general.etalab.gouv.fr","*.entrepreneur-interet-general.etalab.gouv.fr"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+      var u="//stats.data.gouv.fr/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '37']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//stats.data.gouv.fr/piwik.php?idsite=37" style="border:0;" alt="" />
+
+
+  </body>
+
+</html>

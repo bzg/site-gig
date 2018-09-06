@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Datareg</title>
+  <meta name="description" content="Développeur·euse·s, data scientists, designers, agilistes, passionné·e·s de numérique et d’action publique.
+">
+
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/foundation.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/jquery-ui.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/style.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/fontello.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/font-awesome.css">
+
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/modernizr.foundation.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery-2.1.0.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/terrific-1.1.1.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.url.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.cookie.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery-ui.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/json2.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/foundation.js" type="text/javascript"></script>
+  <script>
+  jQuery( function() {
+    jQuery( "#accordion" ).accordion();
+  } );
+  </script>
+  <script>
+    // terrificjs bootstrap
+    (function($) {
+        $(document).ready(function() {
+            var $page = $('body');
+            var config = {
+              dependencyPath: {
+                plugin: 'javascripts/'
+              }
+            }
+            var application = new Tc.Application($page, config);
+            application.registerModules();
+            application.start();
+        });
+    })(Tc.$);
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/masonry.pkgd.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/slick.min.js" type="text/javascript"></script>
+
+  <link rel="canonical" href="http://site-eig.etalab.gouv.frhttp://site-eig.etalab.gouv.fr/defis/2019/datareg.html">
+  <link rel="alternate" type="application/rss+xml" title="Entrepreneur d'intérêt général" href="http://site-eig.etalab.gouv.frhttp://site-eig.etalab.gouv.fr/feed.xml" />
+</head>
+
+
+  <body>
+
+    <a href="" id="top"></a>
+<div class='contain-to-grid sticky'>
+  <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class='name'>
+        <h1>
+          <a href="http://site-eig.etalab.gouv.fr/index.html">
+            <img alt="Logo EIG" width="100px" src="http://site-eig.etalab.gouv.fr/img/bloque-marque-marianne.png" />
+          </a>
+        </h1>
+      </li>
+      <li class='toggle-topbar menu-icon'>
+        <a href='#'>Menu</a>
+      </li>
+    </ul>
+    <section class='top-bar-section'>
+      <ul class="right">
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">Le programme</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/presentation.html">Notre ambition</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/accompagnement.html">Notre offre d'accompagnement</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/faq-eig.html">F.A.Q. Entrepreneur</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/faq-administrations.html">F.A.Q. Administration</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">Les projets</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/defis.html">Nos défis</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/realisations.html">Nos réalisations</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">La communauté</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/communaute.html">Les EIG et mentors</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/evenements.html">Nos événements</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="">
+              <a href="http://site-eig.etalab.gouv.fr//blog/">Le blog</a>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown lastmenu">
+	      
+	      <a href="http://site-eig.etalab.gouv.fr/participer.html">Participer</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/candidature-eig.html">Je suis un candidat</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/candidature-defi.html">Je suis une administration</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </section>
+  </nav>
+</div>
+
+
+    <div id='main' role='main'>
+      <div class='full'>
+  <div class='row'>
+    <div class='large-7 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          
+          <div class="slide">
+            <img src="http://site-eig.etalab.gouv.fr//img/logo-datareg.png" alt="">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class='large-5 columns'>
+      <h3>DataReg</h3>
+      <ul class='info'>
+        <li>
+          <strong>Année :</strong>
+          2019
+        </li>
+        <li>
+          <strong>Administration :</strong>
+          <a href='https://www.arcep.fr' target='new'>Autorité de régulation des communications électroniques et des postes</a>
+        </li>
+        <li>
+          <strong>Mission :</strong>
+          Transformer les méthodes d’une autorité de régulation en mettant la circulation de la donnée au cœur de ses missions
+        </li>
+	
+        <li>
+          <strong>Type :</strong> <!-- FIXME: type est mauvais -->
+          Data science 
+        </li>
+	
+        <li>
+            <strong>EIGs :</strong>
+	    
+	    
+	    Un·e data scientist
+	    
+	    
+	    
+        </li>
+        <li>
+            <strong>Mentors :</strong>
+	    
+	    
+	    <a href='/communaute/2019/laurent-toustou.html'>Laurent Toustou</a>
+	    
+	    
+	    
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      
+      <a class='button red small' href='/candidature-eig.html'>Je candidate !</a>
+      <a class='button small' href='/candidature-eig.html'>Voir les autres défis</a>
+      
+    </div>
+    <div class='large-12 columns'>
+	<p>
+            <p><a href="https://www.arcep.fr/">L’Autorité de régulation des communications électroniques et des
+postes (ARCEP)</a> souhaite faire passer à l’échelle des outils et des
+méthodes de régulation par la donnée (outil cartographique,
+tableaux de bords, API) afin de développer une régulation moderne, en
+lien avec ses utilisateurs (collectivités locales, services de l’Etat,
+consommateurs, entreprises régulées, etc.).</p>
+
+<p><br /></p>
+
+<h2 id="datareg--maximiser-lexploitation-des-données-pour-permettre-aux-régulateurs-des-communications-électroniques-de-gagner-en-efficacité">DataReg : Maximiser l’exploitation des données pour permettre aux régulateurs des communications électroniques de gagner en efficacité</h2>
+
+<h3 id="la-problématique">La problématique</h3>
+
+<p>Pour réguler les communications électroniques et les postes à l’ère
+du numérique, <a href="https://www.arcep.fr/">l’Arcep</a> a souhaité développer
+la régulation par la donnée. Le principe : utiliser la puissance des
+données pour orienter le marché dans la bonne direction. L’outil de
+cartographie <a href="https://www.monreseaumobile.fr/">monreseaumobile</a> en
+est un exemple : il permet aux citoyens de comparer les performances
+des opérateurs et de faire un choix plus éclairé au moment de souscrire
+un forfait mobile. Parallèlement, il permet aux décideurs (collectivités,
+élus…) de poser un diagnostic sur l’état de la connectivité mobile
+de leurs territoires et d’agir en fonction.</p>
+
+<p>Après une première phase de systématisation de la régulation par la
+donnée, l’Arcep souhaite passer à une seconde phase « d’industrialisation »
+de sa démarche. L’enjeu du projet DataReg est de développer les outils qui
+permettront une centralisation, une circulation, une publication et des croisements
+simplifiés des données de l’Arcep pour gagner en performance et massifier
+les données mises à disposition du grand public.</p>
+
+<h3 id="le-défi--développer-un-datawarehouse-pour-mettre-la-circulation-de-la-donnée-au-coeur-des-missions-de-larcep">Le défi : développer un “datawarehouse” pour mettre la circulation de la donnée au coeur des missions de l’Arcep</h3>
+
+<p>En développant un « datawarehouse » simple et efficace, l’Arcep
+souhaite simplifier les traitements que font les agents, faciliter le
+croisement de données, automatiser les tâches récurrentes, faire
+monter en valeur les analyses des agents et les publications en <em>open
+data</em> pour rendre plus performante la régulation des communications
+électroniques et des postes.</p>
+
+<p>Deux axes principaux structurent le défi :</p>
+
+<ul>
+  <li>
+    <p>l’identification et la mise en place d’outils permettant le
+ stockage et le traitement de toute donnée. Ces outils devront
+ s’adapter aux besoins particuliers de chaque direction de l’Arcep
+ (certaines possèdent une base de donnée, d’autres non) et
+ permettre d’intégrer et de croiser tout type de données (issues
+ d’enquêtes Arcep, provenant de j’Alerte l’Arcep, transmises par
+ des partenaires, remontées par du crowdsourcing…) ;</p>
+  </li>
+  <li>
+    <p>le développement de solutions performantes de publication et de
+ partage de données pour disposer d’un <em>open data</em> parfaitement
+ exploitable, notamment grâce à des API. Ces solutions devront
+ également permettre de simplifier la publication des données sur
+ les outils cartographiques utilisés par l’Arcep.</p>
+  </li>
+</ul>
+
+<p>L’Arcep pourra ainsi renforcer la maîtrise de ses données et sa
+capacité d’innovation. A terme, cette démarche permettra de
+centraliser l’information relative aux communications électroniques et
+aux postes pour les rendre disponibles au grand public et aux
+réutilisateurs de données.</p>
+
+<p><br /></p>
+
+<h2 id="les-eig-recherchées">Les EIG recherché.e.s</h2>
+
+<p>D’une manière générale, les deux EIG devront avoir de bonnes
+connaissances de structuration et de développement d’outils de gestion
+de données et notamment de bases de données. Les entrepreneurs seront
+les pierres angulaires du projet et devront donc démontrer de bonnes
+capacités d’initiative et de mobilisation d’équipes.</p>
+
+<h3 id="eig-1---une-data-scientist-ayant-des-connaissances-sig">EIG 1 - Un·e data scientist <em>ayant des connaissances SIG</em></h3>
+
+<p><strong>Missions principales</strong> : optimisation des bases de données et
+réutilisation des données dans des outils cartographiques.</p>
+
+<p><strong>Compétences nécessaires</strong> : expérience de développement de bases de
+données et connaissance des outils SIG.</p>
+
+<h3 id="eig2---une-data-engineer-architecte--gestion-de-structures">EIG2 - Un·e data engineer <em>architecte / gestion de structures</em></h3>
+
+<p><strong>Missions principales</strong> : (migration des données au sein de bases de
+données et gestion d’API).</p>
+
+<p><strong>Compétences nécessaires</strong> : connaissance en base de données et développement d’API.</p>
+
+<p><em>Précisions techniques</em> :</p>
+
+<ul>
+  <li>Le système de gestion de base de données utilisé est PostgreSQL
+ muni de PostGIS ;</li>
+  <li>Les traitements peuvent être réalisés en python, et se font
+ aujourd’hui notamment via Talend (Java) ;</li>
+  <li>Les fichiers exploités sont des fichiers plats ainsi que des
+ shapefiles sur lesquels il convient de faire des traitements
+ d’uniformisation et de correction.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="léquipe-autour-des-eig">L’équipe autour des EIG</h2>
+
+<h3 id="laurent-toustou-mentor-opérationnel">Laurent Toustou, mentor opérationnel</h3>
+
+<p><img src="/img/communaute/laurent-toustou.png" alt="Laurent Toustou" /></p>
+
+<p><strong>Laurent Toustou est chef de l’unité régulation par la donnée.</strong> De
+profil économiste, il s’est spécialisé dans la régulation des acteurs
+numériques et les nouveaux modes de régulation. Il a été rapporteur de
+la revue stratégique de l’Arcep en 2015 et a ensuite été nommé chef de
+l’unité régulation par la donnée pour développer cette nouvelle
+approche de la régulation au sein de l’Arcep.</p>
+
+<p>L’unité a pour mission de coordonner les initiatives de régulation par
+la donnée, de participer au développement d’outils de collecte,
+traitement et publication de données et d’encourager l’ouverture des
+données pour augmenter le nombre de données traitées par l’Arcep mais
+aussi le nombre et la qualité des données publiées en open data.</p>
+
+	</p>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+    </div>
+
+    <div id='footer'>
+  <div class='three spacing'></div>
+  <div class='row'>
+    <div class='large-4 medium-4 columns'>
+      <h1>
+        <a href='/index.html'>
+          <img alt="" src="http://site-eig.etalab.gouv.fr/images/logo-grey.png" />
+        </a>
+      </h1>
+      <ul>
+	  <li><a href="/feed.xml">Vous abonner au flux RSS du blog EIG</a></li>
+	  <li><a href="/cgu.html">Conditions générales d'utilisation</a></li>
+      </ul>
+      <p>© 2017-2018 Entrepreneur d'intérêt général</p>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-4 medium-4 columns centered-text'>
+      <div class='spacing'></div>
+      <h3>Écosystème</h3>
+      <ul>
+        <li><a href="https://www.etalab.gouv.fr">Etalab</a></li>
+        <li><a href="https://data.gouv.fr">data.gouv.fr</a></li>
+        <li><a href="https://beta.gouv.fr">beta.gouv</a></li>
+	<li><a href="https://twitter.com/_DINSIC">DINSIC</a></li>
+      </ul>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-4 medium-4 columns'>
+	<div class='spacing'></div>
+	<h3>Nous écrire</h3>
+	<ul class='socials'>
+	    <li>
+		<a href="mailto:entrepreneur-interet-general@data.gouv.fr">entrepreneur-interet-general@data.gouv.fr</a>
+	    </li>
+	    <div class='spacing'></div>
+            <li>
+		<a target="new" title="Nous contacter via le formulaire" href='/contact.html'>
+		    <i class='fa fa-envelope'></i>
+		</a>
+            </li>
+            <li>
+		<a target="new" title="Compte Twitter @etalab" href='https://twitter.com/etalab'>
+		    <i class='fa fa-twitter'></i>
+		</a>
+            </li>
+            <li>
+		<a target="new" title="Compte Github EIG" href='https://github.com/entrepreneur-interet-general'>
+		    <i class='fa fa-github'></i>
+		</a>
+            </li>
+	</ul>
+	<div class='spacing'></div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.countTo.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.appear.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.validate.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.sequence-min.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/app.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.entrepreneur-interet-general.etalab.gouv.fr","*.entrepreneur-interet-general.etalab.gouv.fr"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+      var u="//stats.data.gouv.fr/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '37']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//stats.data.gouv.fr/piwik.php?idsite=37" style="border:0;" alt="" />
+
+
+  </body>
+
+</html>

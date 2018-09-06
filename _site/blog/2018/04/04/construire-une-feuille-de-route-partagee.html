@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Construire Une Feuille De Route Partagee</title>
+  <meta name="description" content="Jeudi 8 mars, les Entrepreneurs d’Intérêt Général (EIG) se sont rassemblés pour une session d’accompagnement bimensuelle au Liberté Living Lab.  L’occasion p...">
+
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/foundation.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/jquery-ui.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/style.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/fontello.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/font-awesome.css">
+
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/modernizr.foundation.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery-2.1.0.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/terrific-1.1.1.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.url.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.cookie.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery-ui.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/json2.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/foundation.js" type="text/javascript"></script>
+  <script>
+  jQuery( function() {
+    jQuery( "#accordion" ).accordion();
+  } );
+  </script>
+  <script>
+    // terrificjs bootstrap
+    (function($) {
+        $(document).ready(function() {
+            var $page = $('body');
+            var config = {
+              dependencyPath: {
+                plugin: 'javascripts/'
+              }
+            }
+            var application = new Tc.Application($page, config);
+            application.registerModules();
+            application.start();
+        });
+    })(Tc.$);
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/masonry.pkgd.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/slick.min.js" type="text/javascript"></script>
+
+  <link rel="canonical" href="http://site-eig.etalab.gouv.frhttp://site-eig.etalab.gouv.fr/blog/2018/04/04/construire-une-feuille-de-route-partagee.html">
+  <link rel="alternate" type="application/rss+xml" title="Entrepreneur d'intérêt général" href="http://site-eig.etalab.gouv.frhttp://site-eig.etalab.gouv.fr/feed.xml" />
+</head>
+
+
+  <body>
+
+    <a href="" id="top"></a>
+<div class='contain-to-grid sticky'>
+  <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class='name'>
+        <h1>
+          <a href="http://site-eig.etalab.gouv.fr/index.html">
+            <img alt="Logo EIG" width="100px" src="http://site-eig.etalab.gouv.fr/img/bloque-marque-marianne.png" />
+          </a>
+        </h1>
+      </li>
+      <li class='toggle-topbar menu-icon'>
+        <a href='#'>Menu</a>
+      </li>
+    </ul>
+    <section class='top-bar-section'>
+      <ul class="right">
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">Le programme</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/presentation.html">Notre ambition</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/accompagnement.html">Notre offre d'accompagnement</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/faq-eig.html">F.A.Q. Entrepreneur</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/faq-administrations.html">F.A.Q. Administration</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">Les projets</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/defis.html">Nos défis</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/realisations.html">Nos réalisations</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">La communauté</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/communaute.html">Les EIG et mentors</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/evenements.html">Nos événements</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="">
+              <a href="http://site-eig.etalab.gouv.fr//blog/">Le blog</a>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown lastmenu">
+	      
+	      <a href="http://site-eig.etalab.gouv.fr/participer.html">Participer</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/candidature-eig.html">Je suis un candidat</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/candidature-defi.html">Je suis une administration</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </section>
+  </nav>
+</div>
+
+
+    <div id='main' role='main'>
+      <div class="full">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class='mod modBlogPost big no_bg'>
+  <div class='images'>
+    
+  </div>
+  <div class='content'>
+    <p class='info'>
+      <span>
+	
+	04
+	avril
+	
+	2018
+      </span>
+      /
+      <span>
+        de
+        <a href="https://entrepreneur-interet-general.etalab.gouv.fr/">Sophie Miljkovic, équipe EIG</a>
+	
+      </span>
+    </p>
+    <!-- https://mycyberuniverse.com/web/social-media-share-bar-jekyll-blog-website.html -->
+<div id="share-bar">
+  <div class="share-buttons">
+    <a href="https://twitter.com/intent/tweet?text=«%20Construire Une Feuille De Route Partagee%20»%20:%20http://site-eig.etalab.gouv.fr/blog/2018/04/04/construire-une-feuille-de-route-partagee.html%20%23eig2018%20cc%20@etalab"
+       target="new"
+       title="Partager sur Twitter">
+      <i class="fa fa-twitter share-button"> Twitter</i>
+    </a>
+    <a href="mailto:?subject=À lire : Construire Une Feuille De Route Partagee&amp;body=Un article que je te recommande :\nhttp://site-eig.etalab.gouv.fr/blog/2018/04/04/construire-une-feuille-de-route-partagee.html\n\nÀ bientôt !"
+       target="new"
+       title="Partager par courriel">
+      <i class="fa fa-envelope share-button"> Courriel</i>
+    </a>
+  </div>
+</div>
+
+
+    <p><img src="/img/blog/LLL-1-photo-groupe.jpg" alt="Dans une grande salle, les EIG de la promotion 2 sont assis à des pupitres individuels et discutent entre eux." />
+<em>La promotion 2 des EIG au <a href="https://www.liberte.paris/">Liberté Living Lab</a>, qui a préparé cette session “feuille de route” (© Sophie Miljkovic)</em></p>
+
+<p>Jeudi 8 mars, les Entrepreneurs d’Intérêt Général (EIG) se sont
+rassemblés pour une session d’accompagnement bimensuel au Liberté
+Living Lab.  L’occasion pour eux de construire la feuille de route de
+leurs défis et d’identifier les actions à renforcer et/ou à
+clarifier.  Pendant 2 heures, les EIG ont complété une matrice
+comprenant 12 étapes clés du développement d’un projet. Depuis
+l’identification des objectifs et des parties prenantes, jusqu’à la
+phase de tests et de déploiement, en passant par la définition de son
+offre et l’évolution du produit.</p>
+
+<p>Voici un aperçu des résultats de cet atelier « feuille de
+route », animé par Marylène Vicari du Liberté Living Lab.</p>
+
+<h1 id="préparer-le-terrain"><em>Préparer le terrain</em></h1>
+
+<p>Pour mener un projet à bien, il est nécessaire de le doter de fondations
+solides. Première étape, donc, <strong>définir précisément les objectifs à
+atteindre</strong>. Petite subtilité : distinguer les objectifs stratégiques des
+objectifs opérationnels d’un défi. Pour Bastien, notre « EIG Link »,
+soutien technique et méthodologique des EIG, <em>« assurer une forme de
+cohérence entre les défis sur la méthode, l’open source, l’impact… »</em>
+fait partie de ses objectifs stratégiques. Un exemple d’objectif
+opérationnel ? <em>« Pérenniser l’infrastructure technique »</em>.</p>
+
+<p>Une fois les objectifs définis, il faut <strong>identifier les acteurs clés de
+son défi</strong>. Chaque acteur clé étant une ressource que l’on peut
+mobiliser, plus on en trouve, mieux c’est ! Conseil appliqué à la lettre
+par Bastien… tout en acronymes.</p>
+
+<p><img src="/img/LLL-1-acteurs-cles.jpg" alt="Sur une page blanche, sont listés les utilisateurs et les structures-ressources que Bastien a identifiés." />
+<em>Les acteurs-clés identifiés par Bastien. (© Sophie Miljkovic)</em></p>
+
+<h1 id="travailler-son-produit"><em>Travailler son produit</em></h1>
+
+<p>Le cadre étant posé, il s’agit de construire son offre. Pour cela, rien
+de tel que d’<strong>interroger des personnes compétentes et/ou concernées par
+le sujet</strong>, qu’elles soient utilisatrices ou ambassadrices du produit.
+En amont, constituer un guide d’entretien, en aval, débriefer à chaud.
+Et on n’oublie pas de tenir les personnes interrogées au courant de
+l’utilisation que l’on fait de leurs propos !</p>
+
+<p>Tiphaine et Guillaume de <a href="https://previsecours.fr/"><em>PréviSecours</em></a> ont
+d’ailleurs commencé à constituer une liste des personnes qu’ils comptent
+remercier à la fin de leur projet.</p>
+
+<p>Ensuite, place à la <strong>formalisation des problématiques</strong>. Plusieurs
+outils s’offrent au porteur de projet. Par exemple, le « persona » qui
+permet de faire le portrait-robot d’un utilisateur-type ou encore le
+« customer journey map » qui retrace les interactions d’un
+utilisateur-type avec un produit ou un service (entrées de blog à venir
+sur les approches utilisateurs).</p>
+
+<h1 id="définir-son-offre"><em>Définir son offre</em></h1>
+
+<p>Voici venu le temps de la <strong>définition de la proposition de valeur de
+son projet</strong>. Pour cela on peut recourir aux « value proposition
+canvas ». L’idée est de répondre aux besoins, désirs et impératifs qui
+animent l’utilisateur –- ou « pains », « gains » et « customer job ».
+Plus facile à faire qu’à dire, voici celui d’Elise et de Julien qui
+travaillent sur le projet <a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/socialconnect/"><em>Social Connect</em></a>.</p>
+
+<p><img src="/img/LLL-1-canvas.jpg" alt="Sur une page blanche, sont représentés deux cercles. Dans le cercle de droite sont notés les besoins, désirs et impératifs d'un utilisateur de l'outil de Social Connect. Dans le cercle de gauche, en miroir du cercle de droite, sont notées les solutions apportées aux besoins, désirs et impératifs de l'utilisateur par l'outil de Social Connect." />
+<em>Le “value proposition canvas” dûment complété par Elise et Julien. (© Sophie Miljkovic)</em></p>
+
+<p>Elise et Julien ont d’ailleurs anticipé l’étape d’après : <strong>organiser
+son travail</strong>. Ils ont fait un choix très clair. Celui du post-it.</p>
+
+<p><img src="/img/LLL-1-post-it.jpg" alt="Sur un mur blanc, des post-its de couleurs différentes sont rangés en lignes et colonnes très propres." />
+<em>Un des murs du bureau d’Elise et de Julien. Rassurez-vous, les autres sont tout aussi beaux. Et la porte aussi. (© Sophie Miljkovic)</em></p>
+
+<h2 id="tester-son-produit">Tester son produit</h2>
+
+<p>Après mûre réflexion, une idée prend forme. Ce n’est pourtant que le
+début (ou presque). Il faut maintenant tester son produit pour mieux
+l’adapter aux besoins de l’utilisateur. On s’empresse donc de <strong>faire
+des pré-prototypages et des tests rapides</strong>, puis d’en <strong>analyser les
+résultats</strong>. <em>Coming soon</em>, le récit des tests, post-tests et re-tests
+des EIG.</p>
+
+<h2 id="faire-grandir-son-projet">Faire grandir son projet</h2>
+
+<p>Et là, c’est la phase finale : le produit est prêt, il faut le lancer.
+Les produits des EIG n’ont pas vocation à conquérir les marchés –
+service public oblige – mais ils doivent tout de même réussir à
+s’implanter dans leurs administrations respectives.  Pour cela, rien
+de tel qu’un <strong>plan de déploiement</strong> consolidé par des <strong>actions de
+pérennisation</strong> de son produit. La preuve qu’on peut préparer cette
+étape dès le début de l’aventure : l’équipe de <a href="https://entrepreneur-interet-general.etalab.gouv.fr/defi/2017/09/26/labsante/"><em>Lab Santé</em></a> a déjà
+organisé des ateliers de formation pour les futurs utilisateurs de son
+produit. Mais on peut voir encore plus grand. Tous les outils créés
+par les EIG sont ouverts et peuvent donc être utilisés par d’autres
+administrations que celle d’origine.  Alors pour bien essaimer, on
+s’entraîne à <strong>bien présenter</strong>.  Et oui, on apprend à faire un
+<em>elevator pitch</em> (dans le jargon)…</p>
+
+<p>Cette session d’accompagnement avait pour objectif de dessiner une
+feuille de route globale pour les EIG. Conçue spécialement pour eux,
+elle n’est pourtant pas gravée dans le marbre et peut être amenée à
+évoluer. Tout comme les projets d’ailleurs. On vous tient au courant !</p>
+
+<p>Retrouvez la description des projets EIG - Promo 2 sur <a href="https://entrepreneur-interet-general.etalab.gouv.fr/">notre site</a>.
+Et sur le Github du <a href="https://github.com/entrepreneur-interet-general">Programme EIG</a></p>
+
+    <!-- https://mycyberuniverse.com/web/social-media-share-bar-jekyll-blog-website.html -->
+<div id="share-bar">
+  <div class="share-buttons">
+    <a href="https://twitter.com/intent/tweet?text=«%20Construire Une Feuille De Route Partagee%20»%20:%20http://site-eig.etalab.gouv.fr/blog/2018/04/04/construire-une-feuille-de-route-partagee.html%20%23eig2018%20cc%20@etalab"
+       target="new"
+       title="Partager sur Twitter">
+      <i class="fa fa-twitter share-button"> Twitter</i>
+    </a>
+    <a href="mailto:?subject=À lire : Construire Une Feuille De Route Partagee&amp;body=Un article que je te recommande :\nhttp://site-eig.etalab.gouv.fr/blog/2018/04/04/construire-une-feuille-de-route-partagee.html\n\nÀ bientôt !"
+       target="new"
+       title="Partager par courriel">
+      <i class="fa fa-envelope share-button"> Courriel</i>
+    </a>
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <div id='footer'>
+  <div class='three spacing'></div>
+  <div class='row'>
+    <div class='large-4 medium-4 columns'>
+      <h1>
+        <a href='/index.html'>
+          <img alt="" src="http://site-eig.etalab.gouv.fr/images/logo-grey.png" />
+        </a>
+      </h1>
+      <ul>
+	  <li><a href="/feed.xml">Vous abonner au flux RSS du blog EIG</a></li>
+	  <li><a href="/cgu.html">Conditions générales d'utilisation</a></li>
+      </ul>
+      <p>© 2017-2018 Entrepreneur d'intérêt général</p>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-4 medium-4 columns centered-text'>
+      <div class='spacing'></div>
+      <h3>Écosystème</h3>
+      <ul>
+        <li><a href="https://www.etalab.gouv.fr">Etalab</a></li>
+        <li><a href="https://data.gouv.fr">data.gouv.fr</a></li>
+        <li><a href="https://beta.gouv.fr">beta.gouv</a></li>
+	<li><a href="https://twitter.com/_DINSIC">DINSIC</a></li>
+      </ul>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-4 medium-4 columns'>
+	<div class='spacing'></div>
+	<h3>Nous écrire</h3>
+	<ul class='socials'>
+	    <li>
+		<a href="mailto:entrepreneur-interet-general@data.gouv.fr">entrepreneur-interet-general@data.gouv.fr</a>
+	    </li>
+	    <div class='spacing'></div>
+            <li>
+		<a target="new" title="Nous contacter via le formulaire" href='/contact.html'>
+		    <i class='fa fa-envelope'></i>
+		</a>
+            </li>
+            <li>
+		<a target="new" title="Compte Twitter @etalab" href='https://twitter.com/etalab'>
+		    <i class='fa fa-twitter'></i>
+		</a>
+            </li>
+            <li>
+		<a target="new" title="Compte Github EIG" href='https://github.com/entrepreneur-interet-general'>
+		    <i class='fa fa-github'></i>
+		</a>
+            </li>
+	</ul>
+	<div class='spacing'></div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.countTo.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.appear.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.validate.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.sequence-min.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/app.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.entrepreneur-interet-general.etalab.gouv.fr","*.entrepreneur-interet-general.etalab.gouv.fr"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+      var u="//stats.data.gouv.fr/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '37']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//stats.data.gouv.fr/piwik.php?idsite=37" style="border:0;" alt="" />
+
+
+  </body>
+
+</html>

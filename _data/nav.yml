@@ -1,0 +1,37 @@
+- name: Le programme
+  children:
+  - name: Notre ambition
+    path: presentation.html
+  - name: Notre offre d'accompagnement
+    path: accompagnement.html
+  - name: F.A.Q. Entrepreneur
+    path: faq-eig.html
+  - name: F.A.Q. Administration
+    path: faq-administrations.html
+
+- name: Les projets
+  children:
+  - name: Nos défis
+    path: defis.html
+  - name: Nos réalisations
+    path: realisations.html
+
+- name: La communauté
+  children:
+  - name: Les EIG et mentors
+    path: communaute.html
+  - name: Nos événements
+    path: evenements.html
+
+- name: Le blog
+  section_id: blog
+  path: /blog/
+
+- name: Participer
+  section_id: participer
+  path: participer.html
+  children:
+  - name: Je suis un candidat
+    path: candidature-eig.html
+  - name: Je suis une administration
+    path: candidature-defi.html

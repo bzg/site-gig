@@ -1,0 +1,70 @@
+---
+layout: default
+section_id: candidature-eig
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2>Vous souhaitez devenir Entrepreneur d'intérêt général ?</h2>
+      <p>Data scientists, designers, développeurs, découvrez dès à présent les défis qui s'offrent à vous :</p>
+      <ul>
+	  <li>faites le tri selon les compétences recherchées ;</li>
+	  <li>cliquez sur le défi qui vous intéresse pour avoir plus de détails ;</li>
+	  <li>postulez !</li>
+	      </ul> 
+      </p>
+
+      <p>Vous avez jusqu'au lundi <strong>15 octobre</strong> pour <a href="">déposer votre candidature</a> à un ou deux des défis ci-dessous.</p>
+	    
+      <p>N'oubliez pas de consulter <a target="new" href="[Lien vers le règlement]">le règlement de l'appel à candidature</a>.</p>
+      
+      <p>Pour en apprendre plus sur le programme, participez à <a href="[lien vers l'eventbrite]">notre événement d'information</a> et suivez-nous sur <a target="new" href="https://twitter.com/etalab">Twitter</a>.</p>
+	    
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='one spacing'></div>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+	<ul>
+          <li class='current'><a data-cat='all' href='#'>Tout</a></li>
+          <li><a data-cat='data' href='#'>Data</a></li>
+          <li><a data-cat='web' href='#'>Web</a></li>
+          <li><a data-cat='design' href='#'>Design</a></li>
+	</ul>
+      </div>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+	{% for defi in site.data.defis2019 %}
+        <li class='{{defi.class}}'>
+          <a href='{{defi.link_to}}'>
+            <img alt="" src="{{site.url}}/{{defi.image}}" />
+            <div class='overlay' style='background: #b01818;'>
+              <div class='thumb-info'>
+		<h3>{{defi.title}}</h3>
+		<p>{{defi.desc}}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+	{% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class='two spacing'></div>
+  <div class='row'>
+      <div class='large-12 columns'>
+	  <h2>Ressources</h2>
+	  <p>Afin de vous préparer au mieux, vous pouvez consulter les documents et les pages ci-dessous</p>
+	  <ul>
+	      <li><a href="/docs/EIG-promotion2_reglement_programme_VFF.pdf">Le règlement de la promotion 2018 (susceptible de changer)</a></li>
+	      <li><a href="/defis.html">Les défis en cours de
+		  réalisation et réalisés</a></li>
+	      <li><a href="/faq-eig.html">Les questions fréquentes au sujet de l'appel à candidatures</a></li>
+	  </ul>
+	  <div class='four spacing'></div>
+    </div>
+  </div>
+</div>

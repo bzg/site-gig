@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Plume</title>
+  <meta name="description" content="Développeur·euse·s, data scientists, designers, agilistes, passionné·e·s de numérique et d’action publique.
+">
+
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/foundation.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/jquery-ui.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/style.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/fontello.css">
+  <link rel="stylesheet" href="http://site-eig.etalab.gouv.fr/css/font-awesome.css">
+
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/modernizr.foundation.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery-2.1.0.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/terrific-1.1.1.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.url.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.cookie.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/jquery-ui.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/json2.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/foundation.js" type="text/javascript"></script>
+  <script>
+  jQuery( function() {
+    jQuery( "#accordion" ).accordion();
+  } );
+  </script>
+  <script>
+    // terrificjs bootstrap
+    (function($) {
+        $(document).ready(function() {
+            var $page = $('body');
+            var config = {
+              dependencyPath: {
+                plugin: 'javascripts/'
+              }
+            }
+            var application = new Tc.Application($page, config);
+            application.registerModules();
+            application.start();
+        });
+    })(Tc.$);
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/masonry.pkgd.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="http://site-eig.etalab.gouv.fr/javascripts/slick.min.js" type="text/javascript"></script>
+
+  <link rel="canonical" href="http://site-eig.etalab.gouv.frhttp://site-eig.etalab.gouv.fr/defis/2019/plume.html">
+  <link rel="alternate" type="application/rss+xml" title="Entrepreneur d'intérêt général" href="http://site-eig.etalab.gouv.frhttp://site-eig.etalab.gouv.fr/feed.xml" />
+</head>
+
+
+  <body>
+
+    <a href="" id="top"></a>
+<div class='contain-to-grid sticky'>
+  <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class='name'>
+        <h1>
+          <a href="http://site-eig.etalab.gouv.fr/index.html">
+            <img alt="Logo EIG" width="100px" src="http://site-eig.etalab.gouv.fr/img/bloque-marque-marianne.png" />
+          </a>
+        </h1>
+      </li>
+      <li class='toggle-topbar menu-icon'>
+        <a href='#'>Menu</a>
+      </li>
+    </ul>
+    <section class='top-bar-section'>
+      <ul class="right">
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">Le programme</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/presentation.html">Notre ambition</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/accompagnement.html">Notre offre d'accompagnement</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/faq-eig.html">F.A.Q. Entrepreneur</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/faq-administrations.html">F.A.Q. Administration</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">Les projets</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/defis.html">Nos défis</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/realisations.html">Nos réalisations</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown active">
+	      
+	      <a style="cursor:default;">La communauté</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/communaute.html">Les EIG et mentors</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/evenements.html">Nos événements</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="">
+              <a href="http://site-eig.etalab.gouv.fr//blog/">Le blog</a>
+            </li>
+          
+        
+          
+	  
+          
+            <li class="has-dropdown lastmenu">
+	      
+	      <a href="http://site-eig.etalab.gouv.fr/participer.html">Participer</a>
+	      
+              <ul class='dropdown'>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/candidature-eig.html">Je suis un candidat</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://site-eig.etalab.gouv.fr/candidature-defi.html">Je suis une administration</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+      </ul>
+    </section>
+  </nav>
+</div>
+
+
+    <div id='main' role='main'>
+      <div class='full'>
+  <div class='row'>
+    <div class='large-7 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          
+          <div class="slide">
+            <img src="http://site-eig.etalab.gouv.fr//img/logo-plume.png" alt="">
+          </div>
+          
+          <div class="slide">
+            <img src="http://site-eig.etalab.gouv.fr//img/defis/plume-portfolio.png" alt="">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class='large-5 columns'>
+      <h3>Plume</h3>
+      <ul class='info'>
+        <li>
+          <strong>Année :</strong>
+          2019
+        </li>
+        <li>
+          <strong>Administration :</strong>
+          <a href='https://www.ccomptes.fr/en' target='new'>Cour des comptes</a>
+        </li>
+        <li>
+          <strong>Mission :</strong>
+          Transformer les métiers des juridictions financières en développant des outils de rédaction collaborative et d’exploration de données
+        </li>
+	
+        <li>
+          <strong>Type :</strong> <!-- FIXME: type est mauvais -->
+          Développement, Data science & Design 
+        </li>
+	
+        <li>
+            <strong>EIGs :</strong>
+	    
+	    
+	    Un·e designer·euse
+	    
+	    
+            /
+            
+	    
+	    
+	    Un·e développeur·se
+	    
+	    
+            /
+            
+	    
+	    
+	    Un·e data scientist
+	    
+	    
+	    
+        </li>
+        <li>
+            <strong>Mentors :</strong>
+	    
+	    
+	    <a href='/communaute/2019/olivier-brandouy.html'>Olivier Brandouy</a>
+	    
+	    
+            /
+            
+	    
+	    
+	    <a href='/communaute/2019/pascal-guy.html'>Pascal Guy</a>
+	    
+	    
+            /
+            
+	    
+	    
+	    <a href='/communaute/2019/adnene-trojette.html'>Mohammed Adnène Trojette</a>
+	    
+	    
+	    
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      
+      <a class='button red small' href='/candidature-eig.html'>Je candidate !</a>
+      <a class='button small' href='/candidature-eig.html'>Voir les autres défis</a>
+      
+    </div>
+    <div class='large-12 columns'>
+	<p>
+            <p>La <a href="https://www.ccomptes.fr/">Cour des comptes</a> souhaite développer un outil de rédaction collaborative de ses écrits et réaliser des analyses de données sur les textes utilisés et collectés par les juridictions financières. L’objectif sous-jacent : concevoir et présenter des rapports autrement, apporter un nouvel éclairage sur les contrôles à lancer en priorité, et consolider une doctrine de la Cour sur l’ensemble des politiques publiques qu’elle contrôle et évalue depuis sa création.</p>
+
+<p><br /></p>
+
+<h2 id="plume--finir-de-faire-entrer-les-juridictions-financières-dans-le-xxie-siècle">Plume : finir de faire entrer les juridictions financières dans le XXI<sup>e</sup> siècle</h2>
+
+<h3 id="la-problématique">La problématique</h3>
+
+<p>L’article 15 de la déclaration des droits de l’Homme et du citoyen
+dispose que « la société a le droit de demander compte à tout agent
+public de son administration ». Cet article est le fondement des
+missions des juridictions financières : s’assurer du bon emploi des 1
+292 Md € d’argent public et en informer le citoyen.</p>
+
+<p>Pour ce faire, comme la plupart des administrations qu’elles
+contrôlent, la Cour et les chambres régionales et territoriales des
+comptes (CRTC) produisent des milliers de documents, encore trop
+souvent imprimés et annotés à la main. Cette méthode, qui répondait parfaitement
+aux besoins des juridictions financières du XIX<sup>e</sup> siècle et
+correctement au XX<sup>e</sup> siècle, a trouvé ses limites avec le
+développement des démarches et des outils numériques de rédaction
+collaborative.</p>
+
+<h3 id="le-défi--développer-des-outils-de-rédaction-collaborative-et-dexploration-de-données-pour-transformer-les-métiers-des-juridictions-financières">Le défi : développer des outils de rédaction collaborative et d’exploration de données pour transformer les métiers des juridictions financières</h3>
+
+<p>Le défi proposé à la troisième promotion EIG est le suivant :</p>
+
+<ul>
+  <li>
+    <p><strong>imaginer et prototyper la chaîne de conception, de production 
+et de délibération des écrits de la Cour et de CRTC</strong>, voire d’autres
+services publics, à l’époque des wikis, de Git et de Markdown. Ce 
+projet permettra de transformer profondément l’approche des
+juridictions financières dans l’élaboration de leurs écrits en
+facilitant la collaboration au sein des équipes et en refondant le
+processus délibératif. En mettant en commun les demandes formulées aux
+administrations contrôlées et aux justiciables, la Cour et les CRTC
+pourront transposer à leurs procédures le principe « dites-le nous une
+fois » ;</p>
+  </li>
+  <li>
+    <p><strong>fouiller les corpus de texte collectés ou élaborés par les 
+juridictions financières</strong> pour valoriser la connaissance produite
+par les juridictions financières. L’exploration de textes recueillis ou produits et leur
+croisement avec des corpus externes pourront éclairer le choix des
+contrôles à lancer en priorité mais aussi aider les magistrats à
+identifier les positions déjà prises par les juridictions financières
+(JF) dans le cadre de travaux précédents.</p>
+  </li>
+</ul>
+
+<p>Ce projet sera l’occasion d’API-fier les applications 
+« métier » des JF, afin de rendre les données disponibles encore plus
+accessibles au grand public. Un citoyen pourra ainsi accéder plus 
+systématiquement aux documents de la Cour des comptes sous des formats
+techniquement réutilisables.</p>
+
+<p><br /></p>
+
+<h2 id="les-eig-recherchées">Les EIG recherché.e.s</h2>
+
+<p>Trois profils complémentaires sont recherchés.</p>
+
+<h3 id="eig-1---une-designereuse">EIG 1 - Un·e designer·euse</h3>
+
+<p><strong>Missions principales</strong> : recherche utilisateur, analyse de besoins, cadrage du projet (entretiens, observations sur le terrain, ateliers), design du parcours et de l’expérience utilisateur</p>
+
+<p><strong>Compétences nécessaires</strong> : design d’interface UX/UI. Une appétence pour le design de service serait un plus.</p>
+
+<h3 id="eig-2---une-développeurse">EIG 2 - Un·e développeur·se</h3>
+
+<p><strong>Missions principales</strong> : développement des différentes briques
+logicielles comme la rédaction collaborative, la gestion de styles, la
+gestion de versions concurrentes… ainsi que la prise en charge  de la phase de développement.</p>
+
+<p><strong>Compétences nécessaires</strong> : Devops, Python, JS (notamment Angular) et sur Github/Gitlab. Des
+expériences de développement d’applications collaboratives, voire
+d’applications de gestion documentaire, seront appréciées.</p>
+
+<h3 id="eig-3---une-data-scientist">EIG 3 - Un·e data scientist</h3>
+
+<p><strong>Missions principales</strong> : mise en place d’outils de <em>text
+mining</em> (analyse de grands corpus, parcours de graphes, restitution et
+visualisation de sens) ainsi que la prise en charge de la phase
+de fouille de texte.</p>
+
+<p><strong>Compétences nécessaires</strong> : connaissance générale des graphes (structure,
+dynamique), et plus précisément des réseaux sémantiques, doublée d’une 
+aptitude à manipuler ou développer des algorithmes d’extraction de sens
+dans ce contexte, sont requises. Un profil avancé en informatique et des
+savoir-faire en analyse statistique et en IA seraient des plus.</p>
+
+<p><br /></p>
+
+<h2 id="léquipe-autour-des-eig">L’équipe autour des EIG</h2>
+
+<p>L’équipe sera placée auprès du secrétaire général adjoint de la Cour
+des comptes, directeur du centre d’appui métier, et fera partie
+intégrante du centre d’appui métier composé de la direction des
+systèmes d’information, de la direction de la documentation, du pôle «
+Données », du pôle « Méthodes » et du pôle « Formation ».</p>
+
+<h3 id="olivier-brandouy-mentor-opérationnel">Olivier Brandouy, mentor opérationnel</h3>
+
+<p><img src="/img/communaute/olivier-brandouy.png" alt="Olivier Brandouy" /></p>
+
+<p>Professeur des Universités en finance, Olivier Brandouy est
+actuellement expert à la Cour des comptes, rattaché au secrétariat
+général et au centre d’appui métier. Docteur, agrégé d’économie et de
+gestion ainsi que de sciences de gestion, il a dirigé des équipes de
+recherche, des diplômes de master et des parcours doctoraux et réalisé
+une grande partie de ses recherches aux interfaces de l’IA et de la
+finance (simulations multi-agents notamment). Il a publié de nombreux
+articles de recherche aux interfaces de l’informatique, fondamentale
+et appliquée, des systèmes complexes et en finance quantitative. Il
+développe sous R (économétrie, optimisation, analyse des réseaux) et
+possède une expertise GNU/Linux.</p>
+
+<h3 id="pascal-guy-appui-si">Pascal Guy, appui SI</h3>
+
+<p><img src="/img/communaute/pascal-guy.png" alt="Pascal Guy" /></p>
+
+<p>Directeur des systèmes d’information à la Cour des comptes, Pascal Guy
+est entouré d’une équipe de 32 collaborateurs, dont six
+développeurs. Après 15 ans d’expérience dans le privé, dans le secteur
+des médias, il a rejoint le secteur public pour relever le défi de la
+numérisation naissante, au Conseil supérieur de l’audiovisuel puis à
+l’Agence nationale des fréquences. Diplômé d’une maîtrise en génie
+informatique et d’un Master en management des NTIC de l’Ecole
+centrale-EM Lyon, adepte des méthodes agiles, il continue à ses heures
+perdues à faire du développement à titre personnel et récréatif.</p>
+
+<h3 id="mohammed-adnène-trojette-mentor-de-haut-niveau">Mohammed Adnène Trojette, mentor de haut niveau</h3>
+
+<p><img src="/img/communaute/adnene-trojette.jpg" alt="Mohammed Adnène Trojette, SGA, mentor de haut niveau" /></p>
+
+<p>Secrétaire général adjoint de la Cour des comptes, Mohammed Adnène
+Trojette dirige le centre d’appui métier des juridictions financières
+qui regroupe la direction des systèmes d’information, la direction de
+la documentation, le pôle données, le pôle méthodes et le pôle
+formation.</p>
+
+<p>Ingénieur en informatique et télécoms, ancien de SciencesPo Paris, de
+l’ENA et développeur Debian GNU/Linux, il a remis au Premier ministre
+en 2013 un rapport sur l’ouverture des données publiques. Ancien
+co-directeur du Liberté Living-lab, il a copiloté la première
+promotion des entrepreneurs d’intérêt général et a porté plusieurs
+projets dans le cadre de Data for good.</p>
+
+	</p>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+    </div>
+
+    <div id='footer'>
+  <div class='three spacing'></div>
+  <div class='row'>
+    <div class='large-4 medium-4 columns'>
+      <h1>
+        <a href='/index.html'>
+          <img alt="" src="http://site-eig.etalab.gouv.fr/images/logo-grey.png" />
+        </a>
+      </h1>
+      <ul>
+	  <li><a href="/feed.xml">Vous abonner au flux RSS du blog EIG</a></li>
+	  <li><a href="/cgu.html">Conditions générales d'utilisation</a></li>
+      </ul>
+      <p>© 2017-2018 Entrepreneur d'intérêt général</p>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-4 medium-4 columns centered-text'>
+      <div class='spacing'></div>
+      <h3>Écosystème</h3>
+      <ul>
+        <li><a href="https://www.etalab.gouv.fr">Etalab</a></li>
+        <li><a href="https://data.gouv.fr">data.gouv.fr</a></li>
+        <li><a href="https://beta.gouv.fr">beta.gouv</a></li>
+	<li><a href="https://twitter.com/_DINSIC">DINSIC</a></li>
+      </ul>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-4 medium-4 columns'>
+	<div class='spacing'></div>
+	<h3>Nous écrire</h3>
+	<ul class='socials'>
+	    <li>
+		<a href="mailto:entrepreneur-interet-general@data.gouv.fr">entrepreneur-interet-general@data.gouv.fr</a>
+	    </li>
+	    <div class='spacing'></div>
+            <li>
+		<a target="new" title="Nous contacter via le formulaire" href='/contact.html'>
+		    <i class='fa fa-envelope'></i>
+		</a>
+            </li>
+            <li>
+		<a target="new" title="Compte Twitter @etalab" href='https://twitter.com/etalab'>
+		    <i class='fa fa-twitter'></i>
+		</a>
+            </li>
+            <li>
+		<a target="new" title="Compte Github EIG" href='https://github.com/entrepreneur-interet-general'>
+		    <i class='fa fa-github'></i>
+		</a>
+            </li>
+	</ul>
+	<div class='spacing'></div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.countTo.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.appear.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.validate.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.sequence-min.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="http://site-eig.etalab.gouv.fr/javascripts/app.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.entrepreneur-interet-general.etalab.gouv.fr","*.entrepreneur-interet-general.etalab.gouv.fr"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+      var u="//stats.data.gouv.fr/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '37']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//stats.data.gouv.fr/piwik.php?idsite=37" style="border:0;" alt="" />
+
+
+  </body>
+
+</html>
