@@ -4,10 +4,10 @@
     <title>Entrepreneur d'intérêt général</title>
     <description>Développeur·euse·s, data scientists, designers, agilistes, passionné·e·s de numérique et d’action publique.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Sep 2018 07:35:15 +0200</pubDate>
-    <lastBuildDate>Thu, 06 Sep 2018 07:35:15 +0200</lastBuildDate>
+    <link>http://site2.eig-forever.org/</link>
+    <atom:link href="http://site2.eig-forever.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 06 Sep 2018 07:38:30 +0200</pubDate>
+    <lastBuildDate>Thu, 06 Sep 2018 07:38:30 +0200</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -164,8 +164,8 @@ de l’administration&lt;/a&gt;, accompagnées d’une &lt;a href=&quot;https://
 
 </description>
         <pubDate>Wed, 11 Apr 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/2018/04/11/atelier-ouverture-logiciel-libre.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/04/11/atelier-ouverture-logiciel-libre.html</guid>
+        <link>http://site2.eig-forever.org/blog/2018/04/11/atelier-ouverture-logiciel-libre.html</link>
+        <guid isPermaLink="true">http://site2.eig-forever.org/blog/2018/04/11/atelier-ouverture-logiciel-libre.html</guid>
         
         
       </item>
@@ -233,8 +233,8 @@ Plusieurs méthodes peuvent être mobilisées pour répondre à ces questions, n
 &lt;p&gt;D’autres méthodes de recherche utilisateurs existent, et pour cela vous pouvez consulter le site &lt;a href=&quot;http://comment-faire.modernisation.gouv.fr/&quot;&gt;« Comment faire »&lt;/a&gt; proposé par la Direction interministérielle à la transformation publique, ou encore les &lt;a href=&quot;https://methods.18f.gov/&quot;&gt;Methods Cards&lt;/a&gt; de nos cousins américains de l’agence 18 F&lt;/p&gt;
 </description>
         <pubDate>Mon, 09 Apr 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/2018/04/09/atelier-product-research.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/04/09/atelier-product-research.html</guid>
+        <link>http://site2.eig-forever.org/blog/2018/04/09/atelier-product-research.html</link>
+        <guid isPermaLink="true">http://site2.eig-forever.org/blog/2018/04/09/atelier-product-research.html</guid>
         
         
       </item>
@@ -348,8 +348,8 @@ elle n’est pourtant pas gravée dans le marbre et peut être amenée à
 Et sur le Github du &lt;a href=&quot;https://github.com/entrepreneur-interet-general&quot;&gt;Programme EIG&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Apr 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/blog/2018/04/04/construire-une-feuille-de-route-partagee.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/04/04/construire-une-feuille-de-route-partagee.html</guid>
+        <link>http://site2.eig-forever.org/blog/2018/04/04/construire-une-feuille-de-route-partagee.html</link>
+        <guid isPermaLink="true">http://site2.eig-forever.org/blog/2018/04/04/construire-une-feuille-de-route-partagee.html</guid>
         
         
       </item>
@@ -630,8 +630,8 @@ github.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;À bientôt pour d’autres nouvelles de nos avancées techniques !&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Mar 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/blog/2018/03/16/programme-eig-point-de-vue-technique.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/03/16/programme-eig-point-de-vue-technique.html</guid>
+        <link>http://site2.eig-forever.org/blog/2018/03/16/programme-eig-point-de-vue-technique.html</link>
+        <guid isPermaLink="true">http://site2.eig-forever.org/blog/2018/03/16/programme-eig-point-de-vue-technique.html</guid>
         
         
       </item>
@@ -740,8 +740,8 @@ github.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Le programme EIG s’engage à mettre autant que possible en open source les outils développés dans le cadre du programme. Le code est disponible sur le &lt;a href=&quot;https://github.com/entrepreneur-interet-general/&quot;&gt;github&lt;/a&gt; du programme.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Feb 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/blog/2018/02/27/bootcamp-comment-souder-un-collectif-de-talents.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/02/27/bootcamp-comment-souder-un-collectif-de-talents.html</guid>
+        <link>http://site2.eig-forever.org/blog/2018/02/27/bootcamp-comment-souder-un-collectif-de-talents.html</link>
+        <guid isPermaLink="true">http://site2.eig-forever.org/blog/2018/02/27/bootcamp-comment-souder-un-collectif-de-talents.html</guid>
         
         
       </item>
