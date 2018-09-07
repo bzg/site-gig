@@ -16,7 +16,7 @@ mentors:
   - nom: Stéphanie Schaer
     site: /communaute/2018/stephanie-schaer.html
 images:
-  - /img/calendrier/signaux_faibles.jpg
+  - /img/calendrier/signaux-faibles.jpg
 ---
 
 En France, chaque année, 4 000 PME et ETI font faillite. Mais si leurs
