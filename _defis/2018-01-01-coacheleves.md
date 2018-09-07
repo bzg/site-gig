@@ -20,7 +20,7 @@ mentors:
   - nom: François Bocquet
     site: /communaute/2018/francois-bocquet.html
 images:
-  - /img/defis/12_CoachElevesAssistProf.png
+  - /img/calendrier/coacheleve.jpg
 ---
 
 Aujourd’hui, quelles que soient les difficultés –ou les ambitions !-

@@ -16,7 +16,9 @@ mentors:
   - nom: Daniel Ansellem
     site: /communaute/2018/daniel-ansellem.html
 images:
-  - /img/defis/4_Previsecours.png
+  - /img/calendrier/previsecours_1.jpg
+  - /img/calendrier/previsecours_2.jpg
+  - /img/calendrier/previsecours_3.jpg
 ---
 
 En 2016, les sapeurs-pompiers ont effectué plus de 4 542 400 interventions. Chacune d’entre elles suppose la mise en œuvre d’une véritable logistique humaine et matérielle. Celle-ci est d’autant plus complexe que le volume d’interventions est volatile, les lieux variables, les horaires fluctuants… 

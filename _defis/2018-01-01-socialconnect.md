@@ -16,7 +16,10 @@ mentors:
   - nom: Bénédicte Pachod
     site: /communaute/2018/benedicte-pachod.html
 images:
-  - /img/defis/8_CGET.png
+  - /img/calendrier/socialconnect_2.jpg
+  - /img/calendrier/socialconnect_3.jpg
+  - /img/calendrier/socialconnect_5.jpg
+  - /img/calendrier/socialconnect_7.jpg
 ---
 
 Connaissez-vous Part’âge Village ? Famileo ? Api bus ? Ce ne sont que

@@ -18,7 +18,8 @@ mentors:
   - nom: Renaud Périn
     site: /communaute/2018/renaud-perin.html
 images:
-  - /img/defis/1_MTES.png
+  - /img/calendrier/predisauvetage_1.jpg
+  - /img/calendrier/predisauvetage_2.jpg
 ---
 
 En 2016, 10 000 opérations de sauvetage pour 30 000 personnes ont été

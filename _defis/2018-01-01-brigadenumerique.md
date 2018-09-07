@@ -18,7 +18,7 @@ mentors:
   - nom: Rémy Nollet
     site: /communaute/2018/remy-nollet.html
 images:
-  - /img/defis/10_brigadenumerique.png
+  - /img/calendrier/brigade-numerique.jpg
 ---
 
 La mission des gendarmes est complexe : assurer la sécurité dans les
