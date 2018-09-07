@@ -23,7 +23,7 @@
   - name: Nos événements
     path: evenements.html
 
-- name: Le blog
+- name: La blag
   section_id: blog
   path: /blog/
 

@@ -18,7 +18,7 @@ mentors:
   - nom: Anne Lambert
     site: /communaute/2018/anne-lambert.html
 images:
-  - /img/defis/9_ARCHEMSE.png
+  - /img/calendrier/archifiltre_1.jpg
 ---
 
 Les archives sont comme un arbre : rassemblées en un endroit,
