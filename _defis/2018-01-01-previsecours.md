@@ -16,8 +16,6 @@ mentors:
   - nom: Daniel Ansellem
     site: /communaute/2018/daniel-ansellem.html
 images:
-  - /img/calendrier/previsecours_1.jpg
-  - /img/calendrier/previsecours_2.jpg
   - /img/calendrier/previsecours_3.jpg
 ---
 

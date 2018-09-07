@@ -15,12 +15,6 @@
   - web
   desc: Développement
 
-- image: /img/defis/previsecours-portfolio.png
-  title: Prévisecours
-  link_to: /defis/2018/previsecours.html
-  class: 2018 web data
-  desc: Datascience &amp; Développement
-
 - image: /img/defis/predisauvetage-portfolio.png
   title: Prédisauvetage
   link_to: /defis/2018/donneesauvetagemaritime.html
@@ -49,6 +43,12 @@
   title: DataESR
   link_to: /defis/2018/dataesr.html
   class: 2018 data web 
+  desc: Datascience &amp; Développement
+
+- image: /img/defis/previsecours-portfolio.png
+  title: Prévisecours
+  link_to: /defis/2018/previsecours.html
+  class: 2018 web data
   desc: Datascience &amp; Développement
 
 - image: /img/defis/gobelins-portfolio.png

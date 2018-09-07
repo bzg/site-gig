@@ -16,8 +16,8 @@ mentors:
   - nom: Bénédicte Pachod
     site: /communaute/2018/benedicte-pachod.html
 images:
-  - /img/calendrier/socialconnect_2.jpg
   - /img/calendrier/socialconnect_3.jpg
+  - /img/calendrier/socialconnect_2.jpg
   - /img/calendrier/socialconnect_5.jpg
   - /img/calendrier/socialconnect_7.jpg
 ---

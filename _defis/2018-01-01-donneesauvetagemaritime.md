@@ -18,7 +18,6 @@ mentors:
   - nom: Renaud Périn
     site: /communaute/2018/renaud-perin.html
 images:
-  - /img/calendrier/predisauvetage_1.jpg
   - /img/calendrier/predisauvetage_2.jpg
 ---
 
